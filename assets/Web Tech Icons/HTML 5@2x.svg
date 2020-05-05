@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>HTML 5@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-453.000000, -3472.000000)" id="Webtech-Icons">
+            <g transform="translate(0.000000, 3188.000000)">
+                <g id="HTML-5" transform="translate(453.000000, 284.000000)">
+                    <g>
+                        <circle id="Oval-2" fill="#F16529" cx="40" cy="40" r="40"></circle>
+                        <path d="M40,0 L40,80 C17.90861,80 0,62.09139 0,40 C0,17.90861 17.90861,0 40,0 Z" id="Combined-Shape" fill="#E44D26"></path>
+                        <g id="5" transform="translate(14.705882, 14.117647)" fill-rule="nonzero">
+                            <path d="M0,0 L25.2941176,0 L25.2941176,10.0678997 L11.0495356,10.0678997 L11.9814241,20.3797353 L25.2941176,20.3797353 L25.2941176,30.425459 L2.75128999,30.425459 M3.19504644,35.4815848 L13.3126935,35.4815848 L14.0227038,43.5314693 L25.2941176,46.547404 L25.2941176,57.0588235 L4.61506708,51.293066" id="Shape" fill="#EBEBEB"></path>
+                            <path d="M50.5882353,0 L25.2941176,0 L25.2941176,10.0757316 L49.654709,10.0757316 M48.7434095,20.3955888 L25.2941176,20.3955888 L25.2941176,30.4713204 L37.7411351,30.4713204 L36.5631138,43.5653328 L25.2941176,46.5836136 L25.2941176,57.0588235 L45.9650574,51.3329673" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

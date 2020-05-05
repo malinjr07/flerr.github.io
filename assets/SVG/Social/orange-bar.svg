@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="auto" height="225px" viewBox="0 0 675 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Orange</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="63.9989721%" y1="46.8244475%" x2="164.763736%" y2="47.3809176%" id="linearGradient-1">
+            <stop stop-color="#F88A36" offset="0%"></stop>
+            <stop stop-color="#FD2020" offset="100%"></stop>
+        </linearGradient>
+        <path d="M49,62 L571,62 C598.061953,62 620,83.9380473 620,111 C620,138.061953 598.061953,160 571,160 L49,160 C21.9380473,160 3.31413338e-15,138.061953 0,111 C-3.31413338e-15,83.9380473 21.9380473,62 49,62 Z" id="path-2"></path>
+        <filter x="-6.0%" y="-44.9%" width="114.2%" height="189.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="7" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.696295706   0 0 0 0 0.696295706   0 0 0 0 0.696295706  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Orange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M385.302561,38.5547495 C387.916161,40.5334545 391.161932,41.7244509 394.688406,41.7244509 C403.293472,41.7244509 410.294525,34.7246937 410.294525,26.1212185 C410.294525,17.5224601 403.293472,10.5297781 394.688406,10.5297781 C386.088056,10.5297781 379.094081,17.5248185 379.094081,26.1212185 C379.094081,29.9253318 380.46457,33.4134184 382.733779,36.1232301 L231.871482,186.957621 C229.165887,184.698266 225.684231,183.335105 221.88885,183.335105 C213.2885,183.335105 206.294525,190.330146 206.294525,198.926546 C206.294525,207.530021 213.290859,214.529778 221.88885,214.529778 C230.493916,214.529778 237.494969,207.530021 237.494969,198.926546 C237.494969,195.393649 236.299034,192.141404 234.308169,189.52357 L385.302561,38.5547495 Z" id="Path" fill="#E6E6E6" fill-rule="nonzero" transform="translate(308.294525, 112.529778) rotate(-6.000000) translate(-308.294525, -112.529778) "></path>
+        <g id="Rectangle-7" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        </g>
+        <text id="Content-Creation" font-family="Quicksand-Bold, Quicksand" font-size="25" font-weight="bold" fill="#071F3A">
+            <tspan x="156" y="25">Content Creation</tspan>
+        </text>
+        <text id="SEO" font-family="Quicksand-Bold, Quicksand" font-size="25" font-weight="bold" fill="#071F3A">
+            <tspan x="156" y="215">SEO</tspan>
+        </text>
+        <text id="We-cover-every-aspec" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal" fill="#FFFFFF">
+            <tspan x="43" y="105">We cover every aspect of digital marketing, all in the name </tspan>
+            <tspan x="43" y="132">of driving brand loyalty and attracting new customers</tspan>
+        </text>
+    </g>
+</svg>

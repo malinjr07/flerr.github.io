@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="228px" viewBox="-20 0 595 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Digital Strategy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="48.3951018%" x2="14.6110023%" y2="55.6617527%" id="linearGradient-1">
+            <stop stop-color="#F13C5B" offset="0%"></stop>
+            <stop stop-color="#EC3D64" offset="33.4501718%"></stop>
+            <stop stop-color="#E33F72" offset="100%"></stop>
+        </linearGradient>
+        <path d="M49,62 L498,62 C525.061953,62 547,83.9380473 547,111 C547,138.061953 525.061953,160 498,160 L49,160 C21.9380473,160 3.31413338e-15,138.061953 0,111 C-3.31413338e-15,83.9380473 21.9380473,62 49,62 Z" id="path-2"></path>
+        <filter x="-6.8%" y="-44.9%" width="116.1%" height="189.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="7" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.696295706   0 0 0 0 0.696295706   0 0 0 0 0.696295706  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Digital-Strategy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M294.193287,49.4531613 C296.473781,51.1796784 299.305875,52.2188811 302.382896,52.2188811 C309.891239,52.2188811 316,46.1112498 316,38.604296 C316,31.1014578 309.891239,25 302.382896,25 C294.87867,25 288.776083,31.1035156 288.776083,38.604296 C288.776083,41.9235714 289.971902,44.9670979 291.951898,47.3315414 L160.317149,178.941942 C157.956384,176.970543 154.91847,175.781119 151.606813,175.781119 C144.102587,175.781119 138,181.884635 138,189.385415 C138,196.892369 144.104645,203 151.606813,203 C159.115156,203 165.223917,196.892369 165.223917,189.385415 C165.223917,186.30279 164.180405,183.465046 162.443278,181.180858 L294.193287,49.4531613 Z" id="Path" fill="#E6E6E6" fill-rule="nonzero" transform="translate(227.000000, 114.000000) scale(-1, 1) rotate(-19.000000) translate(-227.000000, -114.000000) "></path>
+            <g id="Rectangle-7" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <text id="Digital" font-family="Quicksand-Bold, Quicksand" font-size="25" font-weight="bold" fill="#071F3A">
+                <tspan x="202" y="27">Digital</tspan>
+            </text>
+            <text id="Strategy" font-family="Quicksand-Bold, Quicksand" font-size="25" font-weight="bold" fill="#071F3A">
+                <tspan x="296" y="218">Strategy</tspan>
+            </text>
+            <text id="Connect-with-custome" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal" fill="#FFFFFF">
+                <tspan x="42" y="104">Connect with customers in the right places and </tspan>
+                <tspan x="42" y="131">provide a seamless experience across all channels</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

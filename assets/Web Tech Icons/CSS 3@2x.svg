@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>CSS 3@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-973.000000, -3602.000000)" id="Webtech-Icons">
+            <g transform="translate(0.000000, 3188.000000)">
+                <g id="CSS-3" transform="translate(973.000000, 414.000000)">
+                    <g>
+                        <circle id="Oval-2" fill="#2965F1" cx="40" cy="40" r="40"></circle>
+                        <path d="M40,0 L40,80 C17.90861,80 0,62.09139 0,40 C0,17.90861 17.90861,0 40,0 Z" id="Combined-Shape" fill="#264DE4"></path>
+                        <g id="3" transform="translate(16.795000, 16.024564)" fill-rule="nonzero">
+                            <polygon id="polygon2993" fill="#EBEBEB" points="1.76379199 18.9476886 2.59039712 28.2780132 23.2291228 28.2780132 23.2291228 18.9476886"></polygon>
+                            <polygon id="polygon2995" fill="#EBEBEB" points="23.2291228 0.0626678923 23.1972366 0.0626678923 0.102864035 0.0626678923 0.9412488 9.39319792 23.2291228 9.39319792"></polygon>
+                            <polygon id="polygon2997" fill="#EBEBEB" points="23.2291228 52.8873863 23.2291228 43.1798215 23.1887065 43.1907114 12.9172746 40.3848335 12.2606617 32.9433809 7.26955085 32.9433809 3.00248111 32.9433809 4.29458476 47.5934904 23.1866756 52.8993034"></polygon>
+                            <polygon id="polygon3005" fill="#FFFFFF" points="34.9008649 28.2780132 33.7988719 40.378875 23.2102471 43.1876293 23.2102471 52.8947831 42.6731459 47.5934904 42.8159388 46.017136 45.0468945 21.4531715 45.278541 18.9476886 46.9924736 0.0626678923 23.2102471 0.0626678923 23.2102471 9.39319792 36.588037 9.39319792 35.7241714 18.9476886 23.2102471 18.9476886 23.2102471 28.2780132"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

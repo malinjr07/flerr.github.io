@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="526" height="685" viewBox="0 0 526 685">
+    <defs>
+        <linearGradient id="prefix__c" x1="384.271%" x2="-86.375%" y1="31.61%" y2="196.806%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#454CE0"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="94.291%" x2="15.217%" y1="161.669%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="95.92%" x2="13.938%" y1="161.669%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="100%" x2="10.734%" y1="161.669%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__g" x1="100%" x2="10.734%" y1="127.548%" y2="21.892%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__h" x1="106.014%" x2="29.231%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__i" x1="145.576%" x2="14.562%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__j" x1="155.901%" x2="10.734%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__k" x1="155.901%" x2="10.734%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__l" x1="104.031%" x2="29.966%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__m" x1="155.901%" x2="10.734%" y1="172.823%" y2="29.349%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__n" x1="155.901%" x2="10.734%" y1="83.853%" y2="44.308%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__o" x1="109.569%" x2="27.913%" y1="290.733%" y2="9.524%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__p" x1="155.901%" x2="10.734%" y1="185.412%" y2="27.232%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__q" x1="155.901%" x2="10.734%" y1="94.216%" y2="42.566%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <linearGradient id="prefix__r" x1="155.901%" x2="10.734%" y1="238.852%" y2="18.247%">
+            <stop offset="0%" stop-color="#454CE0"/>
+            <stop offset="100%" stop-color="#0D7CDE"/>
+        </linearGradient>
+        <filter id="prefix__a" width="117.1%" height="113.1%" x="-8.6%" y="-6.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="15"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.215686275 0 0 0 0 0.215686275 0 0 0 0 0.215686275 0 0 0 0.1 0"/>
+        </filter>
+        <path id="prefix__b" d="M25 0h476c13.807 0 25 11.193 25 25v635c0 13.807-11.193 25-25 25H25c-13.807 0-25-11.193-25-25V25C0 11.193 11.193 0 25 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#FFF" xlink:href="#prefix__b"/>
+        <path fill="url(#prefix__c)" d="M25 0h476c13.807 0 25 11.193 25 25v294H0V25C0 11.193 11.193 0 25 0z"/>
+        <text fill="#FFF" font-family="Nunito-SemiBold, Nunito" font-size="15" font-weight="500">
+            <tspan x="147" y="247">Connect your brand with your key </tspan> <tspan x="147" y="267">audiences, for mutual benefit.</tspan>
+        </text>
+        <text fill="#FFF" font-family="Avenir-Book, Avenir" font-size="39" font-weight="300" letter-spacing="-.975">
+             <tspan x="145" y="150" font-family="Avenir-Heavy, Avenir" font-weight="600">Marketing &amp;</tspan> <tspan x="145" y="203" font-family="Avenir-Heavy, Avenir" font-weight="600">Management</tspan>
+        </text>
+        <g transform="translate(144 47)">
+            <rect width="238" height="47" fill="#545BF4" rx="23.5"/>
+            <text fill="#DADDFD" font-family="Quicksand-Bold, Quicksand" font-size="18" font-weight="bold" letter-spacing="4.235">
+                <tspan x="66" y="30">GET SOCIAL</tspan>
+            </text>
+            <circle cx="37.5" cy="23.5" r="7.5" fill="#54EA41"/>
+        </g>
+        <g>
+            <path fill="url(#prefix__d)" fill-rule="nonzero" d="M56.51 7H53.58c-1.289 0-1.289 1.992 0 1.992h2.932c3.027 0 5.49 2.448 5.49 5.456v23.056c0 3.009-2.462 5.456-5.49 5.456h-3.325c-.22 0-.433.072-.607.205l-6.102 4.654v-3.862c0-.55-.447-.997-.999-.997H33.319c-.996 0-1.953-.262-2.796-.76V31.017c0-2.095-1.07-3.946-2.695-5.04V14.447c0-3.008 2.463-5.456 5.491-5.456h14c1.288 0 1.288-1.992 0-1.992h-14c-4.13 0-7.49 3.341-7.49 7.448v10.653c-.457-.11-.933-.169-1.424-.169H6.117C2.744 24.932 0 27.662 0 31.017v2.15c0 1.286 1.998 1.286 1.998 0v-2.15c0-2.257 1.848-4.092 4.119-4.092h18.289c2.27 0 4.119 1.835 4.119 4.092v11.58c-.012.088-.012.176 0 .263v6.338c0 .125-.008.25-.02.374h-2.06c-2.27 0-4.162 1.634-4.555 3.782-.09.034-.178.081-.259.144l-4.468 3.44v-2.652c0-.55-.447-.996-1-.996H6.118c-2.271 0-4.119-1.836-4.119-4.092V39.145c0-1.285-1.998-1.285-1.998 0v10.053c0 3.355 2.744 6.085 6.117 6.085h9.048v3.683c0 .8.973 1.278 1.61.789l5.04-3.88v11.207c0 2.54 2.077 4.607 4.63 4.607h6.131v2.325c0 .798.973 1.278 1.61.788l4.043-3.113h1.195c2.553 0 4.631-2.067 4.631-4.607v-1.769c0-1.285-1.998-1.285-1.998 0v1.769c0 1.442-1.181 2.614-2.633 2.614h-1.536c-.22 0-.435.073-.61.208l-2.704 2.082v-1.294c0-.55-.447-.996-.999-.996h-7.13c-1.451 0-2.633-1.173-2.633-2.614V54.179c0-1.442 1.181-2.614 2.633-2.614h12.979c1.452 0 2.633 1.173 2.633 2.614v4.891c0 1.285 1.998 1.285 1.998 0v-4.89c0-2.541-2.078-4.608-4.631-4.608H30.51c.008-.124.012-5.156.012-5.156.88.353 1.825.537 2.796.537h11.16v4.883c0 .797.969 1.277 1.606.791l7.439-5.674h2.987c4.13 0 7.489-3.341 7.489-7.449V14.448C64 10.341 60.64 7 56.51 7z" transform="translate(50 366)"/>
+            <path fill="url(#prefix__e)" fill-rule="nonzero" d="M47.997 13.122c-1.269-.336-2.562.702-2.562 2.06 0 1.482-.522 2.91-1.47 4.022l-2.753 3.225c-.178-.283-.486-.47-.837-.47h-5.376c-.552 0-.999.462-.999 1.034V35.51c0 .572.447 1.035 1 1.035h5.375c.404 0 .75-.249.908-.605 1.089.688 2.35 1.06 3.633 1.06h9.5c1.452 0 2.65-1.304 2.581-2.802-.03-.664.003-9.575.003-9.773 0-1.474-1.16-2.674-2.581-2.674l-4.94-.016.204-.5c.935-2.292.781-4.949-.41-7.108-.28-.505-.732-.861-1.276-1.005-.544-.144.544.144 0 0-1.269-.336.544.144 0 0zm-8.621 21.354h-3.377V24.027h3.377v10.449zm15.04-10.657c.323 0 .585.272.585.606l-.004 1.455c-.015 3.999-.025 7.785.004 8.415.01.227-.097.378-.161.448-.112.122-.262.188-.424.188h-9.5c-1.132 0-2.24-.406-3.121-1.143l-.42-.353v-8.072l4.09-4.79c1.27-1.49 1.969-3.405 1.969-5.392 0-.058.077-.074.103-.028.885 1.603.999 3.575.305 5.276l-.789 1.934c-.13.319-.097.684.087.972.185.29.497.463.83.464l6.446.02z" transform="translate(50 366)"/>
+            <path fill="url(#prefix__f)" fill-rule="nonzero" d="M9.037 41.265c-.573 0-1.037.464-1.037 1.037s.464 1.037 1.037 1.037h3.057l-.57 3.454c-.094.565.288 1.1.853 1.193.058.01.115.014.17.014.5 0 .939-.36 1.023-.868l.627-3.793h2.502l-.571 3.454c-.094.566.289 1.1.854 1.193.057.01.114.014.17.014.499 0 .938-.36 1.022-.868l.627-3.793h4.162c.573 0 1.037-.464 1.037-1.037 0-.572-.464-1.037-1.037-1.037h-3.819l.419-2.53h3.4c.573 0 1.037-.464 1.037-1.037s-.464-1.037-1.037-1.037h-3.057l.57-3.454c.094-.565-.288-1.1-.853-1.193-.566-.093-1.1.29-1.193.854l-.627 3.793h-2.502l.571-3.454c.094-.565-.289-1.1-.854-1.193-.566-.094-1.099.29-1.192.854l-.627 3.793H9.037c-.573 0-1.037.464-1.037 1.037 0 .572.464 1.037 1.037 1.037h3.819l-.419 2.53h-3.4zm5.921-2.53h2.502l-.418 2.53H14.54l.418-2.53z" transform="translate(50 366)"/>
+            <path fill="url(#prefix__g)" fill-rule="nonzero" d="M32.987 56.757c-.843-.658-1.965-.917-3.09-.658-1.442.332-2.897 1.61-2.897 3.715 0 1.31.505 2.448 1.543 3.477.848.841 2.072 1.641 3.968 2.594.153.077.321.115.49.115.167 0 .335-.038.488-.115C36.797 64.223 39 62.555 39 59.814c0-2.117-1.507-3.381-3-3.695-1.122-.236-2.21.014-3.013.638zm3.924 3.057c0 1.478-1.035 2.571-3.911 4.072-2.877-1.5-3.912-2.594-3.912-4.072 0-1.1.673-1.647 1.302-1.792.116-.026.24-.042.368-.042.473 0 .993.208 1.314.797.183.335.552.543.949.535.398-.007.757-.228.925-.57.338-.687 1.049-.807 1.601-.691.66.138 1.364.674 1.364 1.763z" transform="translate(50 366)"/>
+            <text fill="#023068" font-family="Quicksand-Bold, Quicksand" font-size="22" font-weight="bold" transform="translate(50 366)">
+                <tspan x="94" y="22">Social Media Marketing</tspan> <tspan x="94" y="50" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">Get better results by reaching the </tspan> <tspan x="94" y="75" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">right audiences with the right formats </tspan> <tspan x="94" y="100" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">on the right channels</tspan>
+            </text>
+        </g>
+        <g>
+            <path fill="url(#prefix__h)" fill-rule="nonzero" d="M56 14.2h2c.552 0 1-.492 1-1.1 0-.608-.448-1.1-1-1.1h-2c-1.657 0-3 1.477-3 3.3v1.1h-1c-.552 0-1 .492-1 1.1 0 .608.448 1.1 1 1.1h1v3.3c0 .608.448 1.1 1 1.1s1-.492 1-1.1v-3.3h1c.552 0 1-.492 1-1.1 0-.608-.448-1.1-1-1.1h-1v-1.1c0-.608.448-1.1 1-1.1z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__i)" fill-rule="nonzero" d="M60.833 8H48.167C46.417 8 45 9.492 45 11.333v2.223c0 .613.473 1.11 1.056 1.11.583 0 1.055-.497 1.055-1.11v-2.223c0-.613.473-1.11 1.056-1.11h12.666c.583 0 1.056.497 1.056 1.11v13.334c0 .613-.473 1.11-1.056 1.11H48.167c-.583 0-1.056-.497-1.056-1.11V18c0-.614-.472-1.111-1.055-1.111S45 17.386 45 18v6.667C45 26.507 46.418 28 48.167 28h12.666C62.583 28 64 26.508 64 24.667V11.333C64 9.493 62.582 8 60.833 8z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__j)" fill-rule="nonzero" d="M50 54c0 2.21 1.79 4 4 4s4-1.79 4-4-1.79-4-4-4-4 1.79-4 4zm6 0c0 1.105-.895 2-2 2s-2-.895-2-2 .895-2 2-2 2 .895 2 2z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__i)" fill-rule="nonzero" d="M59.833 43H47.167C45.417 43 44 44.492 44 46.333v13.334C44 61.507 45.418 63 47.167 63h12.666C61.583 63 63 61.508 63 59.667v-2.223c0-.613-.473-1.11-1.056-1.11-.583 0-1.055.497-1.055 1.11v2.223c0 .613-.473 1.11-1.056 1.11H47.167c-.583 0-1.056-.497-1.056-1.11V46.333c0-.613.473-1.11 1.056-1.11h12.666c.583 0 1.056.497 1.056 1.11V53c0 .614.472 1.111 1.055 1.111S63 53.614 63 53v-6.667C63 44.493 61.582 43 59.833 43z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__k)" fill-rule="nonzero" d="M24.47 19.85c.16.099.343.15.53.15.157 0 .312-.039.451-.11l6.005-3.001c.334-.171.544-.515.544-.89 0-.376-.21-.72-.544-.89l-6.005-3.002c-.31-.156-.678-.14-.974.04-.295.182-.476.504-.477.85V19c0 .345.177.667.47.85zm1.531-5.232l2.763 1.38L26 17.38v-2.761z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__i)" fill-rule="nonzero" d="M26.5 27c5.247 0 9.5-4.477 9.5-10S31.747 7 26.5 7 17 11.477 17 17s4.253 10 9.5 10zm0-17.778c4.08 0 7.389 3.482 7.389 7.778 0 4.296-3.308 7.778-7.389 7.778-4.08 0-7.389-3.482-7.389-7.778 0-4.296 3.308-7.778 7.389-7.778z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__l)" fill-rule="nonzero" d="M37 31c.315 0 .611-.173.8-.467l3-4.666c.331-.516.242-1.247-.2-1.634-.442-.386-1.069-.282-1.4.234l-3 4.666c-.331.516-.242 1.247.2 1.634.173.151.384.233.6.233z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__m)" fill-rule="nonzero" d="M39.233 34.6c.22.252.567.4.934.4.252 0 .498-.07.7-.2l4.666-3c.516-.331.62-.958.234-1.4-.387-.442-1.118-.531-1.634-.2l-4.666 3c-.516.331-.62.958-.234 1.4z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__n)" fill-rule="nonzero" d="M49.974 37.816c-.054-.266-.228-.5-.483-.65-.254-.15-.566-.2-.864-.143l-5.611.99c-.62.056-1.072.543-1.01 1.09.062.548.614.947 1.234.892h.225l5.61-.99c.301-.048.567-.202.737-.426.169-.224.227-.5.162-.763z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__o)" fill-rule="nonzero" d="M1.071 37H13.93C14.52 37 15 36.503 15 35.889V18.11c0-.614-.48-1.111-1.071-1.111H1.07C.48 17 0 17.497 0 18.111V35.89C0 36.503.48 37 1.071 37zm1.072-17.778h10.714v15.556H2.143V19.222z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__p)" fill-rule="nonzero" d="M10 21H8c-.552 0-1 .672-1 1.5S7.448 24 8 24h2c.552 0 1-.672 1-1.5s-.448-1.5-1-1.5z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__q)" fill-rule="nonzero" d="M9.833 25H5.167C4.522 25 4 25.672 4 26.5S4.522 28 5.167 28h4.666c.645 0 1.167-.672 1.167-1.5S10.478 25 9.833 25zM9.833 30H5.167C4.522 30 4 30.672 4 31.5S4.522 33 5.167 33h4.666c.645 0 1.167-.672 1.167-1.5S10.478 30 9.833 30z" transform="translate(50 503)"/>
+            <path fill="url(#prefix__r)" fill-rule="nonzero" d="M35.446 35.076c-.194-.331-.554-.536-.944-.536-.39-.001-.75.202-.946.533-.195.33-.196.738-.002 1.07l4.794 8.138-17.393 6.399H20.79l-2.826 1.6-1.88 1.066c-.5.284-1.095.36-1.653.214-.555-.147-1.028-.504-1.316-.992l-2.174-3.69c-.53-1.003-.173-2.237.816-2.816l3.761-2.133 2.718 4.618c.195.331.556.535.946.533.389.002.749-.201.944-.531.196-.33.196-.738.001-1.069l-2.804-4.756 13.643-11.04.446.758c.3.513.967.69 1.489.395.522-.295.702-.949.402-1.461l-1.087-1.846c-.161-.27-.435-.457-.75-.512-.316-.058-.643.024-.891.224L15.356 41.55l-4.631 2.624c-1.71.977-2.531 2.962-2 4.832l-1.088.607c-1.145.646-1.78 1.905-1.61 3.19.172 1.286 1.117 2.342 2.393 2.676.277.072.562.108.848.107.572-.002 1.134-.15 1.63-.426l1.088-.608c.522.529 1.179.912 1.902 1.109.372.102.756.152 1.142.15.764 0 1.515-.198 2.174-.577l.946-.533 2.174 3.7c.9 1.527 2.888 2.051 4.446 1.174.75-.424 1.298-1.123 1.522-1.943.224-.82.107-1.694-.326-2.43l-1.978-3.38 16.306-6.005c.3-.11.534-.345.642-.64.107-.292.08-.615-.076-.886l-5.414-9.215zM9.768 53.304c-.25.142-.547.18-.826.106-.279-.07-.517-.247-.663-.49-.145-.246-.184-.537-.109-.81.075-.276.259-.51.511-.651l.946-.534 1.087 1.845-.946.534zm14.307 2.986c.144.245.183.537.108.81-.077.272-.26.502-.51.64-.517.292-1.177.12-1.48-.383l-2.173-3.701 1.804-1.014h.087l2.164 3.648z" transform="translate(50 503)"/>
+            <text fill="#003E84" font-family="Quicksand-Bold, Quicksand" font-size="22" font-weight="bold" transform="translate(50 503)">
+                <tspan x="94" y="22">Creative Campaigns</tspan> <tspan x="94" y="50" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">Imaginative, innovative and impactful </tspan> <tspan x="94" y="75" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">content creation, curration and </tspan> <tspan x="94" y="100" font-family="Quicksand-Light, Quicksand" font-size="20" font-weight="300">audience outreach </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+/* Color */
+
+@white: #fff;
+@black: #000;
+@b_gray: #A9B8CA;
+@gray: #999999;
+@green: #54EA41;
+@pink: #F13C5B;
+@d_gray: #6F7B88;
+@blue: #023068;
+@navy: #071F3A;
+
+/* Fonts */
+
+@sans: 'Open Sans', sans-serif;
+
+@nunito: 'Nunito', sans-serif;
+
+@quick: 'Quicksand', sans-serif;
+
+.tran(@time) {
+    -webkit-transition: all linear @time;
+    -moz-transition: all linear @time;
+    -ms-transition: all linear @time;
+    -o-transition: all linear @time;
+    transition: all linear @time;
+}
+
+.bor(@value) {
+    -webkit-border-radius: @value;
+    -ms-border-radius: @value;
+    border-radius: @value;
+}
+
+.shadow(@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+    -webkit-box-shadow: @x @y @blur @spread @alpha;
+    -moz-box-shadow: @x @y @blur @spread @alpha;
+    box-shadow: @x @y @blur @spread @alpha;
+}
+
+/* Section Title */
+h2 {
+    font-family: @quick;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    color: @navy;
+}
+
+h3 {
+    font-family: @quick;
+    font-size: 28.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    color: @navy;
+}
+h4 {
+    font-family: @quick;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: @white;
+}
+
+h5 {
+    font-family: @quick;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.75px;
+    /*  font-size: 18.px; for content heads */
+    line-height: 23px;
+    text-align: center;
+    color: @black;
+}
+
+h6 {
+    font-family: @sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.5637px;
+    line-height: 20px;
+    color: @white;
+}
+
+p {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+}

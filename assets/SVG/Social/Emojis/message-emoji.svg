@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="40px" viewBox="0 0 39 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>MESSAGE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0003046875 0.469270833 38.5341328 0.469270833 38.5341328 39.2589525 0.0003046875 39.2589525"></polygon>
+        <polygon id="path-3" points="5.03225806 6.33213859 33.9677419 6.33213859 33.9677419 35.4599761 5.03225806 35.4599761"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-601.000000, -1290.000000)">
+            <g id="EMOJIS" transform="translate(333.000000, 297.000000)">
+                <g id="MESSAGE" transform="translate(268.000000, 993.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M38.5341328,19.864265 C38.5341328,30.5759086 29.9084297,39.2589525 19.2675234,39.2589525 C8.62600781,39.2589525 0.0003046875,30.5759086 0.0003046875,19.864265 C0.0003046875,9.15262153 8.62600781,0.46896412 19.2675234,0.46896412 C29.9084297,0.46896412 38.5341328,9.15262153 38.5341328,19.864265" id="Fill-1" fill="#9013FE" mask="url(#mask-2)"></path>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M14.9923021,30.7305009 C16.4125346,31.3296683 17.9720055,31.660693 19.6082481,31.660693 C26.2089136,31.660693 31.5598187,26.2741507 31.5598187,19.6296296 C31.5598187,12.9850233 26.2089136,7.59856631 19.6082481,7.59856631 C13.0074979,7.59856631 7.65659285,12.9850233 7.65659285,19.6296296 C7.65659285,22.0122403 8.34457482,24.2330451 9.53161457,26.1018645 L6.29032258,33.9270346 L14.9923021,30.7305009 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    <ellipse id="Oval" fill="#9013FE" mask="url(#mask-4)" cx="19.3931832" cy="20.2628435" rx="1.25806452" ry="1.26642772"></ellipse>
+                    <ellipse id="Oval" fill="#9013FE" mask="url(#mask-4)" cx="23.6895922" cy="20.2628435" rx="1.25806452" ry="1.26642772"></ellipse>
+                    <ellipse id="Oval" fill="#9013FE" mask="url(#mask-4)" cx="15.0967742" cy="20.2628435" rx="1.25806452" ry="1.26642772"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

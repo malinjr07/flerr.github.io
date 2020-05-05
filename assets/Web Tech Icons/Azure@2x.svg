@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Azure@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1493.000000, -3602.000000)" id="Webtech-Icons">
+            <g transform="translate(0.000000, 3188.000000)">
+                <g id="Azure" transform="translate(1493.000000, 414.000000)">
+                    <g fill="#035BDA" id="Oval-2">
+                        <g>
+                            <circle cx="40" cy="40" r="40"></circle>
+                        </g>
+                    </g>
+                    <g id="Microsoft_Azure" transform="translate(11.000000, 14.000000)" fill="#FFFFFF">
+                        <g>
+                            <polygon id="path7291" points="34.766692 6 26.4833707 22.6389266 41.0667671 39.4969909 14 42.5617183 56 43"></polygon>
+                            <polygon id="path7293" points="33 0 14.0599917 15.6215695 0 39 11.9684146 37.8147281"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
