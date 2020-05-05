@@ -1538,31 +1538,102 @@ footer .social25 .link30 {
     /* Padding-top should change upcrack */
     /* Emojies */
   }
+  .digit18 .free01 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    height: 72px;
+  }
+  .digit18 .free01 .locker01 {
+    margin: 0 auto;
+    width: 38%;
+    display: block;
+    height: 30px;
+  }
+  .digit18 .free01 .locker01 .lock_img {
+    width: 9px;
+    float: left;
+    margin-right: 11px;
+    display: block;
+  }
+  .digit18 .free01 .locker01 .lock_img img {
+    width: 100%;
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.15);
+  }
+  .digit18 .free01 .locker01 .lock_text18 {
+    float: left;
+  }
+  .digit18 .free01 .locker01 .lock_text18 p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    color: #0D7CDE;
+    text-shadow: 0px 2px 27px rgba(0, 0, 0, 0.15);
+  }
+  .digit18 .free01 .b_box18 {
+    width: 253px;
+    height: 30px;
+    padding: 7px;
+    background: linear-gradient(355.7deg, #454ce0 -132.27%, #0d7cde 90%);
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.15);
+    border-radius: 14.5px;
+    margin: 0 auto;
+  }
+  .digit18 .free01 .b_box18 .new_btn21 {
+    width: 46px;
+    height: 16px;
+    background: linear-gradient(180deg, #51ec94 0%, #429321 780.41%);
+    border-radius: 8px;
+    float: left;
+  }
+  .digit18 .free01 .b_box18 .new_btn21 p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: 0.444444px;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px 0;
+  }
+  .digit18 .free01 .b_box18 .line06 {
+    float: left;
+    margin-left: 7px;
+  }
+  .digit18 .free01 .b_box18 .line06 p {
+    color: #ffffff;
+    font-family: "Avenir-Medium";
+    font-weight: 400;
+  }
   .digit18 .slogan21_mini {
     display: block;
-    padding: 0 13%;
+    padding: 0 6%;
   }
   .digit18 .slogan21_mini h3 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .digit18 .slogan21 {
     display: none;
   }
   .digit18 .title06 {
     padding-top: 65px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
   .digit18 .title06 h2 {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 25px;
     color: #000000;
   }
   .digit18 .like20 {
     top: 141px;
     left: 28px;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
   .digit18 .cmnt10 {
     top: 131px;
@@ -1572,7 +1643,7 @@ footer .social25 .link30 {
   .digit18 .tiktok3 {
     bottom: -12px;
     left: 35px;
-    width: 27px;
+    width: 32px;
     z-index: 1;
   }
   .digit18 .shapes04 .omg02 {
@@ -1587,7 +1658,7 @@ footer .social25 .link30 {
   }
   .digit18 .shapes04 .l0v {
     width: auto;
-    height: 20px;
+    height: 24px;
     top: -1.5%;
     right: 72px;
   }
@@ -1596,6 +1667,7 @@ footer .social25 .link30 {
   }
   .digit18 .market01 {
     min-height: 342px;
+    margin: 0 3%;
   }
   .digit18 .market01 .white_part06 {
     padding-top: 27px;
@@ -1620,15 +1692,21 @@ footer .social25 .link30 {
     width: 77%;
   }
   .digit18 .market01 .white_part06 .content13 .text18 h5 {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 14px;
+    margin-bottom: 3px;
   }
   .digit18 .market01 .white_part06 .content13 .text18 h4 {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 10px;
+  }
+  .digit18 .market01 .blue_part18 .head21 h3 {
+    font-size: 29px;
+    line-height: 38px;
   }
   .digit18 .box_grp027 {
-    padding: 40px 0;
+    padding: 100px 3%;
   }
   .digit18 .box_grp027 .box_rel {
     position: relative;
@@ -1637,17 +1715,9 @@ footer .social25 .link30 {
     position: absolute;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 10.75px;
+    font-size: 15px;
     line-height: 13px;
     color: #071f3a;
-  }
-  .digit18 .box_grp027 .box_rel .up {
-    top: -56%;
-    left: 26%;
-  }
-  .digit18 .box_grp027 .box_rel .down {
-    bottom: -52%;
-    left: 28%;
   }
   .digit18 .box_grp027 .box_rel .path19 {
     position: absolute;
@@ -1655,12 +1725,12 @@ footer .social25 .link30 {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    width: 88px;
-    height: 88px;
+    width: auto;
+    height: 140px;
   }
   .digit18 .box_grp027 .box_rel .rect99 {
     width: 100%;
-    height: 42px;
+    height: 60px;
     -webkit-border-radius: 50px;
     -ms-border-radius: 50px;
     border-radius: 50px;
@@ -1668,14 +1738,14 @@ footer .social25 .link30 {
     -moz-box-shadow: 7px 0px 27px rgba(178, 178, 178, 0.5);
     box-shadow: 7px 0px 27px rgba(178, 178, 178, 0.5);
     overflow: hidden;
-    padding: 10px 0;
+    padding: 12px 0;
   }
   .digit18 .box_grp027 .box_rel .rect99 h4 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 8.6px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 16px;
     color: #ffffff;
     text-align: left;
     padding-left: 5%;
@@ -1688,6 +1758,31 @@ footer .social25 .link30 {
   }
   .digit18 .box_grp027 .box_rel .orange {
     background: linear-gradient(144.43deg, #f88a36 38.46%, #fd2020 125.01%);
+  }
+  .digit18 .top {
+    padding-bottom: 65px;
+  }
+  .digit18 .top .up {
+    top: -60%;
+    left: 22%;
+  }
+  .digit18 .top .down {
+    bottom: -58%;
+    left: 22%;
+  }
+  .digit18 .bottom {
+    padding-top: 65px;
+  }
+  .digit18 .bottom .up {
+    top: -60%;
+    right: 40%;
+  }
+  .digit18 .bottom .down {
+    bottom: -58%;
+    right: 17%;
+  }
+  .digit18 .bottom .box_rel .rect99 h4 {
+    padding: 0 7%;
   }
   .digit18 .left {
     left: 0;
@@ -1717,6 +1812,9 @@ footer .social25 .link30 {
     position: static;
     display: none;
   }
+  .service13 .shape-bouncer {
+    left: calc(45%);
+  }
   .service13 .lg12 {
     left: 38px;
     width: 27px;
@@ -1741,19 +1839,19 @@ footer .social25 .link30 {
   .service13 .slogan01 {
     padding: 0 22px;
     padding-bottom: 59px;
-    margin-top: 31px;
+    margin-top: 60px;
   }
   .service13 .slogan01 .msg25 {
-    top: 58px;
+    top: 79px;
     left: 46px;
     width: 24px;
   }
   .service13 .slogan01 h4 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .service13 .retweet52 {
-    top: 99px;
+    top: 170px;
     right: 52px;
     width: 26px;
     height: 26px;
@@ -1765,7 +1863,7 @@ footer .social25 .link30 {
   }
   .service13 .content18 .part21 {
     float: none;
-    width: 187px;
+    width: 97%;
     margin: 12px auto;
   }
   .service13 .content18 .part21 .serv06 {
@@ -1780,6 +1878,34 @@ footer .social25 .link30 {
     width: 56px;
     margin: 0 auto;
     padding: 23px 0;
+  }
+  footer .forms18 {
+    width: 95%;
+    margin: 0 auto;
+  }
+  footer .forms18 .check152 .helper::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.28s ease;
+    border-radius: 6px;
+    border: 1.5px solid #fff;
+    background: none;
+  }
+  footer .forms18 .check152 .checkbox label {
+    padding-left: 28px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  footer .forms18 .check152 .helper::after {
+    width: 13px;
+    height: 8px;
+    top: 10px;
+    left: 10px;
   }
 }
 /*  Small devices (landscape phones, 576px and up) */
