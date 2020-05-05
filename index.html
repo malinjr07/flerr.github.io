@@ -637,11 +637,6 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/bubbles.js"></script>
     <script type="text/javascript" src="js/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_Gpy9sANtRm5VVKdgJtdo9");
-        })();
-    </script>
     <script>
         new WOW().init();
         $('.navbar-toggler').click(function () {
@@ -671,13 +666,17 @@
             $(".custom-menu .nav-link").click(function () {
                 // alert("Hello");
                 if ($('.navbar-toggler').hasClass("collapsed")) {
-                    $('.navbar-toggler').toggleClass("collapsed");
                     $('.custom-menu').css('height', '0');
                     $('.custom-menu .nav-item').css('opacity', '0');
                     $(".custom-menu").css('display', 'none');
                 }
             })
         }
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_Gpy9sANtRm5VVKdgJtdo9");
+        })();
     </script>
     <script type="text/javascript">
         window.onload = function () {
