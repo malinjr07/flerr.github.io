@@ -1,0 +1,6 @@
+- Index.html desktop view widening
+- Brand Web Apps linking from Social page
+- Index.html debugging
+- Fix &£€~\ symbols issue
+- Replace 3 icons (from mobile) to svg
+- Copy social.html contact form to index.html
