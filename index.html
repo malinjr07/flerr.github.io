@@ -9,8 +9,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Flerr">
     <meta property="og:title" content="FLERR - Branding, Web Apps & Mobile Experiences" />
-    <meta property="og:description"
-        content="Flerr is a digital media agency encircled by state of the art technology and innovation facilities that help us deliver end-to-end solutions. We design, develop and deliver the next generation of mobile and web applications for brands." />
+    <meta property="og:description" content="Flerr is a digital media agency encircled by state of the art technology and innovation facilities that help us deliver end-to-end solutions. We design, develop and deliver the next generation of mobile and web applications for brands." />
     <meta property="og:image" content="assets/img/biglogo.png" />
     <meta property="og:image:secure_url" content="assets/img/biglogo.png" />
     <meta property="og:image:type" content="image/png" />
@@ -28,39 +27,38 @@
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
-
     <style type="text/css">
-        @media only screen and (max-width: 1024px) {
-            .phones-animation {
-                display: none;
-            }
+    @media only screen and (max-width: 1024px) {
+        .phones-animation {
+            display: none;
         }
+    }
     </style>
     <script type="text/javascript" src="./js/bubbles.js"></script>
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/email.min.js"></script>
     <script type="text/javascript">
-        (function () {
-            emailjs.init("user_Gpy9sANtRm5VVKdgJtdo9");
-        })();
+    (function() {
+        emailjs.init("user_Gpy9sANtRm5VVKdgJtdo9");
+    })();
     </script>
     <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
 
-                emailjs.sendForm('flerrgmail', 'template_gyYCQ3X7', this).then(function (response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                    //$("#proto").addClass("btntransition");
-                    $("#proto").css("disabled", true);
-                    $("#proto").toggleClass("button-change");
-                    $("#buttontext").text("Sent");
-                    //document.getElementById('submit-btn').classList.add('nav-btn:hover');
-                }, function (error) {
-                    $("#buttontext").text("Failed");
-                });
+            emailjs.sendForm('flerrgmail', 'template_gyYCQ3X7', this).then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                //$("#proto").addClass("btntransition");
+                $("#proto").css("disabled", true);
+                $("#proto").toggleClass("button-change");
+                $("#buttontext").text("Sent");
+                //document.getElementById('submit-btn').classList.add('nav-btn:hover');
+            }, function(error) {
+                $("#buttontext").text("Failed");
             });
-        }
+        });
+    }
     </script>
 </head>
 
@@ -73,43 +71,36 @@
                     <img src="assets/SVG/flerr-logo-home.svg" class="desktop-logo" />
                     <img src="assets/img/mobile-logo.png" class="mobile-logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span> </span>
                     <span> </span>
                     <span> </span>
                 </button>
-
-
                 <!-- Again . After First attepmt, i'm sending agains -->
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                     <ul class="navbar-nav ml-auto d-flex align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase brand-link" href="#">Brand</a>
+                            <a class="nav-link scroll text-uppercase brand-link" href="#brand">Brand</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase web-link" href="#">Web</a>
+                            <a class="nav-link scroll text-uppercase web-link" href="#web">Web</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase apps-link" href="#">Apps</a>
+                            <a class="nav-link scroll text-uppercase apps-link" href="#apps">Apps</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase social-link" href="#">Social</a>
+                            <a class="nav-link scroll text-uppercase social-link" href="social.html" target="_blank">Social</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase casebook-link" href="#">Casebook</a>
+                            <a class="nav-link scroll text-uppercase casebook-link" href="#case">Casebook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase nav-btn contact-link" href="#">Grow my business</a>
+                            <a class="nav-link scroll text-uppercase nav-btn contact-link" href="#">Grow my business</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-
         <!-- Custom Menu -->
         <div class="custom-menu">
             <ul class="navbar-nav ml-auto d-flex align-items-center">
@@ -131,7 +122,6 @@
             </ul>
         </div>
         <!-- End Custom Menu -->
-
         <div class="row">
             <div class="container">
                 <div class="col-lg-12 header-featured">
@@ -163,24 +153,21 @@
                 <div class="container">
                     <div class="row d-flex about-box-container">
                         <div class="about-box">
-                            <img src="assets/SVG/Technology icon.svg" alt="technology" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Technology icon.svg" alt="technology" class="zoomIn wow" data-wow-delay=".1s">
                             <h4>Technology</h4>
                             <p class="text-center">Our team of design and software technologists consult your brand and
                                 implement the most forward-thinking technology that works for your idea, goals and
                                 vision</p>
                         </div>
                         <div class="about-box">
-                            <img src="assets/SVG/Bespoke Icon.svg" alt="technology" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Bespoke Icon.svg" alt="technology" class="zoomIn wow" data-wow-delay=".1s">
                             <h4>Bespoke</h4>
                             <p class="text-center">We take measures to understand the psychology of your audience and
                                 then articulate your message to reach, engage and inspire them in the most creative way
                                 possible</p>
                         </div>
                         <div class="about-box">
-                            <img src="assets/SVG/Collaborate Icon.svg" alt="technology" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Collaborate Icon.svg" alt="technology" class="zoomIn wow" data-wow-delay=".1s">
                             <h4>Collaborate</h4>
                             <p class="text-center">Providing innovative solutions is the focus of our activity. We
                                 believe in sharing expertise. Our technologists work with you and take you further. We
@@ -205,8 +192,7 @@
                     </p>
                     <div class="services-card-container d-flex">
                         <div class="services-card">
-                            <img src="assets/SVG/Services Icon@2x.svg" alt="services" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Services Icon@2x.svg" alt="services" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Services</h4>
                             <p class="text-center text-white">
                                 Logo Design <br>
@@ -226,8 +212,7 @@
                             </p>
                         </div>
                         <div class="services-card">
-                            <img src="assets/SVG/Reinvent Icon@2x.svg" alt="reinvent" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Reinvent Icon@2x.svg" alt="reinvent" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Reinvent</h4>
                             <p class="text-white text-center">
                                 Propel your growth and
@@ -237,8 +222,7 @@
                             </p>
                         </div>
                         <div class="services-card">
-                            <img src="assets/SVG/Connect Icon@2x.svg" alt="connect" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Connect Icon@2x.svg" alt="connect" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Connect</h4>
                             <p class="text-white text-center">
                                 A consistent brand image
@@ -254,7 +238,6 @@
         <!--..brand-->
         <div class="section-services-web" id="web">
             <div class="section-services-web-shape">
-
             </div>
             <div class="section-services-web-box-top">
                 <p class="text-white text-center">
@@ -278,8 +261,7 @@
                         may be, we work with you to develop the website you imagined.</h3>
                     <div class="services-card-container d-flex">
                         <div class="services-card">
-                            <img src="assets/SVG/WD Services Icon@2x.svg" alt="services" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/WD Services Icon@2x.svg" alt="services" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-uppercase">Services</h4>
                             <p class="text-center">
                                 Desktop <br>
@@ -289,8 +271,7 @@
                             </p>
                         </div>
                         <div class="services-card">
-                            <img src="assets/SVG/Optimised Icon@2x.svg" alt="design" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Optimised Icon@2x.svg" alt="design" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-uppercase">Optimised</h4>
                             <p class="text-center">
                                 Each design element
@@ -300,8 +281,7 @@
                             </p>
                         </div>
                         <div class="services-card">
-                            <img src="assets/SVG/Responsive Icon@2x.svg" alt="reinvent" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Responsive Icon@2x.svg" alt="reinvent" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-uppercase">Responsive</h4>
                             <p class="text-center">
                                 Mobile Ready Design
@@ -311,8 +291,7 @@
                             </p>
                         </div>
                         <div class="services-card">
-                            <img src="assets/SVG/Retina Ready Icon@2x.svg" alt="connect" class="zoomIn wow"
-                                data-wow-delay=".1s">
+                            <img src="assets/SVG/Retina Ready Icon@2x.svg" alt="connect" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-uppercase">Retina ready</h4>
                             <p class="text-center">
                                 Beautifully Sharp <br>
@@ -393,8 +372,7 @@
                 </p>
                 <div class="services-card-container d-flex">
                     <div class="services-card">
-                        <img src="assets/SVG/AD Services Icon@2x.svg" alt="services" class="zoomIn wow"
-                            data-wow-delay=".1s">
+                        <img src="assets/SVG/AD Services Icon@2x.svg" alt="services" class="zoomIn wow" data-wow-delay=".1s">
                         <h4 class="text-center text-uppercase">Services</h4>
                         <p class="text-center">
                             iOS / Android <br>
@@ -404,8 +382,7 @@
                         </p>
                     </div>
                     <div class="services-card">
-                        <img src="assets/SVG/AD Strategy Icon@2x.svg" alt="design" class="zoomIn wow"
-                            data-wow-delay=".1s">
+                        <img src="assets/SVG/AD Strategy Icon@2x.svg" alt="design" class="zoomIn wow" data-wow-delay=".1s">
                         <h4 class="text-center text-uppercase">Strategy</h4>
                         <p class="text-center">
                             Business Analysis <br>
@@ -415,8 +392,7 @@
                         </p>
                     </div>
                     <div class="services-card">
-                        <img src="assets/SVG/AD Design Icon@2x.svg" alt="reinvent" class="zoomIn wow"
-                            data-wow-delay=".1s">
+                        <img src="assets/SVG/AD Design Icon@2x.svg" alt="reinvent" class="zoomIn wow" data-wow-delay=".1s">
                         <h4 class="text-center text-uppercase">Design</h4>
                         <p class="text-center">
                             Concept Development <br>
@@ -426,8 +402,7 @@
                         </p>
                     </div>
                     <div class="services-card">
-                        <img src="assets/SVG/AD Development Icon@2x.svg" alt="connect" class="zoomIn wow"
-                            data-wow-delay=".1s">
+                        <img src="assets/SVG/AD Development Icon@2x.svg" alt="connect" class="zoomIn wow" data-wow-delay=".1s">
                         <h4 class="text-center text-uppercase">Development</h4>
                         <p class="text-center">
                             Full-Stack Development <br>
@@ -442,9 +417,8 @@
         <!--..app-->
     </section>
     <!--..section-services-->
-
     <!-- casebook code was copied from previous developer-->
-    <div id="casebook_desktop" class="desktop section-casebook">
+    <div id="casebook_desktop" class="desktop section-casebook" id="case">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4" style="position: relative;padding-left: 160px;">
@@ -483,27 +457,20 @@
                             our
                             research and development process and weâ€™re not afraid to bend
                             the rules in design. Itâ€™s why weâ€™re trusted in various industries.</h5>
-                        <img src="assets/img/Make Up For Ever Bus Stop Billboard.png" class="img-responsive"
-                            style="width: 100%; margin-top: 1rem;">
+                        <img src="assets/img/Make Up For Ever Bus Stop Billboard.png" class="img-responsive" style="width: 100%; margin-top: 1rem;">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="more-case">
-                        <div class="more-inner"
-                            style="background-image: linear-gradient(to right,#67c5e2, #5aa2fa); box-shadow: 8px 0px 30px rgba(192,192,192,0.5);">
+                        <div class="more-inner" style="background-image: linear-gradient(to right,#67c5e2, #5aa2fa); box-shadow: 8px 0px 30px rgba(192,192,192,0.5);">
                             <div class="row">
                                 <div class="col-md-4" style="text-align:  center;">
-                                    <img src="assets/img/finger.png" class="img-fluid"
-                                        style="width:92px; height:94px; margin-left:30px; margin-top:20px; margin-bottom:20px">
+                                    <img src="assets/img/finger.png" class="img-fluid" style="width:92px; height:94px; margin-left:30px; margin-top:20px; margin-bottom:20px">
                                 </div>
                                 <div class="col-md-8">
-
-                                    <h3 class="phone-detail-title-font"
-                                        style="color: #fff;font-family: 'Quicksand', sans-serif; font-size:20px; padding-top: 20px; font-weight: bold;">
+                                    <h3 class="phone-detail-title-font" style="color: #fff;font-family: 'Quicksand', sans-serif; font-size:20px; padding-top: 20px; font-weight: bold;">
                                         More Case Studies</h3>
-
-                                    <p id="phone-detail-desc"
-                                        style="font-family: Quicksand;font-size: 16px;color: white; padding-top:10px ">
+                                    <p id="phone-detail-desc" style="font-family: Quicksand;font-size: 16px;color: white; padding-top:10px ">
                                         Weâ€™ll be unlocking the full <br>
                                         showcase of our work shortly.</p>
                                 </div>
@@ -515,7 +482,6 @@
         </div>
     </div>
     <!--..section casebook-->
-
     <!-- <div id="casebook_desktop" class="mobile">
                 <div class="container-fluid">
 
@@ -574,15 +540,12 @@
                   </div>
                 </div>
             </div> -->
-
     <section class="section-testimonials">
         <h2 class="text-center position-relative">
             What Our Clients Say
-
         </h2>
         <div class="section-testimonials-container d-flex align-items-end">
             <div class="testimonials-contact position-relative">
-
                 <div class="testimonials-contact-container d-flex">
                     <div class="position-relative mr-4">
                         <img src="assets/SVG/Flerr Address Icon.svg" alt="" class="flerr-address-icon">
@@ -629,13 +592,11 @@
     <section class="section-contact" id="contact">
         <div class="row">
             <div class="container">
-                <h2 class="text-center text-white mb-5"
-                    style="font-size:40px;font-family:'Quicksand';font-weight: 600;">Take the next step.</h2>
+                <h2 class="text-center text-white mb-5" style="font-size:40px;font-family:'Quicksand';font-weight: 600;">Take the next step.</h2>
                 <p class="text-center text-white mb-5" style="font-size:20px;font-family:'Quicksand'">
                     Partner with a team that will save you time and
                     help you get more customers.
                 </p>
-
                 <form id="contact-form">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
@@ -674,21 +635,18 @@
                                 <i class="helper"></i>General
                             </label>
                         </div>
-
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" name="Brand" value="Brand">
                                 <i class="helper"></i>Brand
                             </label>
                         </div>
-
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" name="Web" value="Web">
                                 <i class="helper"></i>Web
                             </label>
                         </div>
-
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" name="Apps" value="Apps">
@@ -697,19 +655,14 @@
                         </div>
                     </div>
                     <div class="form-group mb-5">
-                        <textarea class="form-control" id="textarea" rows="5" placeholder="Message" name="message"
-                            required></textarea>
+                        <textarea class="form-control" id="textarea" rows="5" placeholder="Message" name="message" required></textarea>
                     </div>
-
                     <div class="d-flex justify-content-center">
-
                         <button type="submit" id="proto" class="text-white text-uppercase button">
                             <span id="buttontext">Send Message</span>
                         </button>
                         <!-- <input id="submit-btn" type="submit" value="Send Message" class="nav-btn text-white text-uppercase" /> -->
-
                     </div>
-
                     <div class="d-flex justify-content-center">
                         <img src="assets/SVG/Flerr Footer Icon@2x.svg" alt="form-logo" class="form-logo">
                     </div>
@@ -761,135 +714,101 @@
             </div>
         </footer>
     </section>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-
-
-    <script>
-        new WOW().init();
-        $('.navbar-toggler').click(function () {
-            $('.navbar-toggler').toggleClass("collapsed");
-
-            $(".custom-menu").toggle("fast", function () {
-
-                if ($(".custom-menu").is(":visible")) {
-
-                    $('.custom-menu').css('height', '250px').css('transition',
-                        'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s').css(
-                        '-webkit-transition', 'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s'
-                    );
-                    $('.custom-menu .nav-item').delay(300).fadeTo(300, 1);
-
-
-                } else {
-                    $('.custom-menu').css('height', '0');
-                    $('.custom-menu .nav-item').css('opacity', '0');
-                }
-
-            });
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript">
+    if (window.location.hash)
+        scroll(0, 0);
+    // takes care of some browsers issue
+    setTimeout(function() { scroll(0, 0); }, 1);
+    $(function() {
+        //your current click function
+        $('.scroll').on('click', function(e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: $($(this).attr('href')).offset().top + 'px'
+            }, 1000, 'swing');
         });
 
-        // Clicking on Link will close the menu if opened
-        if (window.matchMedia("(max-width: 992px)").matches) {
-            $(".custom-menu .nav-link").click(function () {
-                // alert("Hello");
-                if ($('.navbar-toggler').hasClass("collapsed")) {
-                    $('.navbar-toggler').toggleClass("collapsed");
-                    $('.custom-menu').css('height', '0');
-                    $('.custom-menu .nav-item').css('opacity', '0');
-                    $(".custom-menu").css('display', 'none');
+        // if we have anchor on the url (calling from other page)
+        if (window.location.hash) {
+            // smooth scroll to the anchor id
+            $('html,body').animate({
+                scrollTop: $(window.location.hash).offset().top + 'px'
+            }, 1000, 'swing');
+        }
+    });
+    </script>
+    <script>
+    new WOW().init();
+    $(function() {
+
+        var scrollLink = $('.scroll');
+
+        // Smooth scrolling
+        scrollLink.click(function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000);
+        });
+
+        // Active link switching
+        $(window).scroll(function() {
+            var scrollbarLocation = $(this).scrollTop();
+
+            scrollLink.each(function() {
+
+                var sectionOffset = $(this.hash).offset().top - 20;
+
+                if (sectionOffset <= scrollbarLocation) {
+                    $(this).parent().addClass('active');
+                    $(this).parent().siblings().removeClass('active');
                 }
             })
-        }
-    </script>
-    <script>
-        //Smooth scroll
 
-        $('.brand-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-brand').offset().top
-            }, 1000);
-        });
+            $(".active").css("color", "#fcac45");
 
-        $('.web-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-web').offset().top
-            }, 1000);
-        });
+        })
 
-        $('.apps-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-app').offset().top
-            }, 1000);
-        });
+    })
+    $('.navbar-toggler').click(function() {
+        $('.navbar-toggler').toggleClass("collapsed");
 
-        $('.casebook-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-casebook').offset().top
-            }, 1000);
-        });
+        $(".custom-menu").toggle("fast", function() {
 
-        $('.contact-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-contact').offset().top
-            }, 1000);
-        });
+            if ($(".custom-menu").is(":visible")) {
+
+                $('.custom-menu').css('height', '250px').css('transition',
+                    'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s').css(
+                    '-webkit-transition', 'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s'
+                );
+                $('.custom-menu .nav-item').delay(300).fadeTo(300, 1);
 
 
-
-        //fading in
-
-        (function ($) {
-
-            $.fn.visible = function (partial) {
-
-                var $t = $(this),
-                    $w = $(window),
-                    viewTop = $w.scrollTop(),
-                    viewBottom = viewTop + $w.height(),
-                    _top = $t.offset().top,
-                    _bottom = _top + $t.height(),
-                    compareTop = partial === true ? _bottom : _top,
-                    compareBottom = partial === true ? _top : _bottom;
-
-                return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-            };
-
-        })(jQuery);
-
-        //lazy load animations
-
-        // change src on hover; testimonials
-        $('.testimonial-card').on('mouseenter', function (e) {
-            var image = $(this).find('img');
-            image.attr('src', 'assets/SVG/Speech Marks SMALL WHITE@2x.svg');
-        });
-        $('.testimonial-card').on('mouseleave', function (e) {
-            var image = $(this).find('img');
-            image.attr('src', 'assets/SVG/Speech Marks SMALL COLOUR@2x.svg');
-        });
-
-        $(window).scroll(function (event) {
-
-            $(".phones-animation").each(function (i, el) {
-                var el = $(el);
-                if (el.visible(true)) {
-                    el.addClass("phones-enter");
-                }
-            });
+            } else {
+                $('.custom-menu').css('height', '0');
+                $('.custom-menu .nav-item').css('opacity', '0');
+            }
 
         });
+    });
+
+    // Clicking on Link will close the menu if opened
+    if (window.matchMedia("(max-width: 992px)").matches) {
+        $(".custom-menu .nav-link").click(function() {
+            // alert("Hello");
+            if ($('.navbar-toggler').hasClass("collapsed")) {
+                $('.navbar-toggler').toggleClass("collapsed");
+                $('.custom-menu').css('height', '0');
+                $('.custom-menu .nav-item').css('opacity', '0');
+                $(".custom-menu").css('display', 'none');
+            }
+        })
+    }
     </script>
     <script src="//code.tidio.co/a6og6tgz0pt4rxldaxrbmcrikija1xv8.js" async></script>
 </body>
