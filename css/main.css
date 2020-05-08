@@ -372,9 +372,6 @@ body {
 
 .nav-btn:hover {
     background: #f4546f !important;
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
     color: #fff !important;
     text-decoration: none;
 }
@@ -1967,11 +1964,17 @@ input[type="checkbox"]:focus+label::before {
         color: #000 !important;
         font-size: .9rem;
         font-weight: 700;
+        padding: 10px 0;
         font-family: 'Nunito', sans-serif;
         -webkit-transition: all .4s;
         -o-transition: all .4s;
         transition: all .4s;
     }
+
+.custom-menu .nav-link.nav-btn {
+    color: #fff !important;
+margin-top: 5px;
+}
 
     .custom-menu .nav-item {
         opacity: 0;

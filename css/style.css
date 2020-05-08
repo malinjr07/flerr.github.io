@@ -1811,6 +1811,7 @@ footer .social25 .link30 {
 /* Responsive Design Starts from Here */
 /* Responsive Navbar */
 /*  Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
   .mini_none {
     display: none;
@@ -1834,7 +1835,7 @@ footer .social25 .link30 {
 
   .digit18 .free01 .locker01 {
     margin: 0 auto;
-    width: 42%;
+    width: 50%;
     display: block;
     height: 32px;
   }
@@ -2302,6 +2303,18 @@ footer .social25 .link30 {
     height: 8px;
     top: 10px;
     left: 10px;
+  }
+}
+@media (max-width: 379.98px) {
+  .digit18 .title06 h2 {
+    line-height: 32px;
+  }
+  .digit18 .top .up,
+  .digit18 .top .down {
+    left: 20%;
+  }
+  .digit18 .bottom .down {
+    right: -1%;
   }
 }
 

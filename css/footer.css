@@ -402,6 +402,10 @@ footer .social25 .link30 {
         padding-top: 145px;
     }
 
+    footer .container {
+        padding: 0;
+    }
+
     footer::after {
         bottom: 203px;
     }
@@ -459,6 +463,7 @@ footer .social25 .link30 {
         padding-left: 30px;
         font-size: 13px;
         vertical-align: middle;
+        min-height: 20px;
     }
 
     footer .forms18 .check152 .helper::after {
@@ -466,9 +471,5 @@ footer .social25 .link30 {
         height: 8px;
         top: 10px;
         left: 10px;
-    }
-
-    footer .forms18 .check152 .checkbox label {
-        padding-left: 32px;
     }
 }

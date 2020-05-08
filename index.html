@@ -660,6 +660,12 @@
                                         <i class="helper"></i>Apps
                                     </label>
                                 </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="Social" value="Apps">
+                                        <i class="helper"></i>Social
+                                    </label>
+                                </div>
                             </div>
                             <div class="form-group mb-5">
                                 <textarea class="form-control" id="textarea" rows="5" placeholder="Message" name="message" required></textarea>
@@ -733,7 +739,7 @@
 
             if ($(".custom-menu").is(":visible")) {
 
-                $('.custom-menu').css('height', '270px').css('transition',
+                $('.custom-menu').css('height', '305px').css('transition',
                     'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s').css(
                     '-webkit-transition', 'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s'
                 );
@@ -784,84 +790,6 @@
         }
     });
     </script>
-    <!-- <script type="text/javascript">
-        //Smooth scroll
-
-        $('.brand-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-brand').offset().top
-            }, 1000);
-        });
-
-        $('.web-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-web').offset().top
-            }, 1000);
-        });
-
-        $('.apps-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-services-app').offset().top
-            }, 1000);
-        });
-
-        $('.casebook-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-casebook').offset().top
-            }, 1000);
-        });
-
-        $('.contact-link').click(function () {
-            $('html, body').animate({
-                scrollTop: $('.section-contact').offset().top
-            }, 1000);
-        });
-
-
-
-        //fading in
-
-        (function ($) {
-
-            $.fn.visible = function (partial) {
-
-                var $t = $(this),
-                    $w = $(window),
-                    viewTop = $w.scrollTop(),
-                    viewBottom = viewTop + $w.height(),
-                    _top = $t.offset().top,
-                    _bottom = _top + $t.height(),
-                    compareTop = partial === true ? _bottom : _top,
-                    compareBottom = partial === true ? _top : _bottom;
-
-                return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-            };
-
-        })(jQuery);
-
-        //lazy load animations
-
-        // change src on hover; testimonials
-        $('.testimonial-card').on('mouseenter', function (e) {
-            var image = $(this).find('img');
-            image.attr('src', 'assets/SVG/Speech Marks SMALL WHITE@2x.svg');
-        });
-        $('.testimonial-card').on('mouseleave', function (e) {
-            var image = $(this).find('img');
-            image.attr('src', 'assets/SVG/Speech Marks SMALL COLOUR@2x.svg');
-        });
-
-        $(window).scroll(function (event) {
-
-            $(".phones-animation").each(function (i, el) {
-                var el = $(el);
-                if (el.visible(true)) {
-                    el.addClass("phones-enter");
-                }
-            });
-
-        });
-    </script> -->
     <script src="//code.tidio.co/a6og6tgz0pt4rxldaxrbmcrikija1xv8.js" async></script>
 </body>
 
