@@ -132,7 +132,7 @@
                     <h1 class="text-white">the next generation of mobile and</h1>
                     <h1 class="text-white">web applications for brands</h1>
                     <img src="./assets/SVG/Banner line.svg" class="header-featured-hr">
-                    <h2 class="mb-4">Flerr is a digital media startup encircled by state of the art technology and
+                    <h2 class="mb-4">Flerr is a digital media startup encircled by state of the art technology and <br>
                         innovation facilities that help us deliver end-to-end solutions.</h2>
                     <h2>We're a creative bunch of doers. <br>We <span>listen</span> to your idea. We <span>work</span>
                         with you. We <span>make</span> it happen. </h2>
@@ -208,30 +208,30 @@
                             <img src="assets/SVG/Design Icon.svg" alt="design" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Design</h4>
                             <p class="text-white text-center">
-                                We assess and create the
-                                best visual representation
-                                that suits your audience
-                                and company values
+                                We assess and create the <br>
+                                best visual representation <br>
+                                that suits your audience <br>
+                                and company values <br>
                             </p>
                         </div>
                         <div class="services-card">
                             <img src="assets/SVG/Reinvent Icon@2x.svg" alt="reinvent" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Reinvent</h4>
                             <p class="text-white text-center">
-                                Propel your growth and
-                                build a visual presence that
-                                stands out in a crowded
-                                marketplace
+                                Propel your growth and <br>
+                                build a visual presence that <br>
+                                stands out in a crowded <br>
+                                marketplace <br>
                             </p>
                         </div>
                         <div class="services-card">
                             <img src="assets/SVG/Connect Icon@2x.svg" alt="connect" class="zoomIn wow" data-wow-delay=".1s">
                             <h4 class="text-center text-white text-uppercase">Connect</h4>
                             <p class="text-white text-center">
-                                A consistent brand image
-                                earns trust, creates
-                                meaningful interaction and
-                                increases engagement
+                                A consistent brand image <br>
+                                earns trust, creates <br>
+                                meaningful interaction and <br>
+                                increases engagement <br>
                             </p>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
             </div>
             <div class="section-services-web-box-top">
                 <p class="text-white text-center">
-                    We make your vision a reality.
+                    We make your vision a reality. <br>
                     We’ll help you convert your next lead.
                 </p>
             </div>
@@ -467,10 +467,10 @@
                         <div class="more-inner" style="background-image: linear-gradient(to right,#67c5e2, #5aa2fa); box-shadow: 8px 0px 30px rgba(192,192,192,0.5);">
                             <div class="row">
                                 <div class="col-md-4" style="text-align:  center;">
-                                    <img src="assets/img/finger.png" class="img-fluid" style="width:92px; height:94px; margin-left:30px; margin-top:20px; margin-bottom:20px">
+                                    <img src="assets/SVG/more-case-studies.svg" class="img-fluid" style="width:85px; margin-left:25px; margin-top:20px; margin-bottom:20px">
                                 </div>
                                 <div class="col-md-8">
-                                    <h3 class="phone-detail-title-font" style="color: #fff;font-family: 'Quicksand', sans-serif; font-size:20px; padding-top: 20px; font-weight: bold;">
+                                    <h3 class="phone-detail-title-font" style="color: #fff;font-family: 'Quicksand', sans-serif; font-size:20px; padding-top: 14px; font-weight: bold;">
                                         More Case Studies</h3>
                                     <p id="phone-detail-desc" style="font-family: Quicksand;font-size: 16px;color: white; padding-top:10px ">
                                         We’ll be unlocking the full <br>
@@ -752,6 +752,15 @@
             }
 
         });
+    });
+
+    $('.testimonial-card').on('mouseenter', function(e) {
+        var image = $(this).find('img');
+        image.attr('src', 'assets/SVG/Speech Marks SMALL WHITE@2x.svg');
+    });
+    $('.testimonial-card').on('mouseleave', function(e) {
+        var image = $(this).find('img');
+        image.attr('src', 'assets/SVG/Speech Marks SMALL COLOUR@2x.svg');
     });
 
     // Clicking on Link will close the menu if opened

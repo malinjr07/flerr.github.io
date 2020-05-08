@@ -250,7 +250,7 @@ body {
 .header-featured-hr {
     padding: 3% 0;
     width: 100%;
-    margin-left: -6.9px;
+    margin-left: 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -264,6 +264,7 @@ body {
     font-size: 19px;
     font-weight: normal;
     font-style: normal;
+    text-align: left;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -398,7 +399,7 @@ body {
 .section-about-top h3 {
     font-family: "Quicksand", sans-serif;
     font-size: 28.5px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -508,6 +509,7 @@ body {
     letter-spacing: normal;
     text-align: center;
     color: #3d5c75;
+    margin-bottom: 1rem;
 }
 
 /** Section services **/
@@ -646,6 +648,7 @@ body {
 }
 
 .services-card h4 {
+    color: #212529;
     font-family: "Quicksand";
     font-size: 18.8px;
     font-weight: bold;
@@ -730,6 +733,7 @@ body {
 .section-services-web h2 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
+    color: #212529;
     font-size: 40px;
     margin-bottom: 25px;
 }
@@ -795,6 +799,11 @@ body {
 }
 
 .section-services-web-box-bottom p {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     margin-bottom: 0;
     width: 250px;
     position: absolute;
@@ -913,6 +922,10 @@ body {
 }
 
 .section-services-web-box-top p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     margin-bottom: 0;
     position: absolute;
     top: 20px;
@@ -1091,6 +1104,11 @@ body {
 }
 
 .section-services-app-box-bottom p {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     width: 455px;
     position: absolute;
     top: 50%;
@@ -1194,12 +1212,21 @@ body {
     }
 }
 
+.phone-detail-title-font {
+    text-align: left;
+}
+
 .section-services-app-box-top p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     text-align: center;
-    margin-top: 10px;
+    top: 25%;
+    left: 5%;
     position: absolute;
-    width: 400px;
+    width: 490px;
 }
 
 @media only screen and (max-width:890px) {
@@ -1413,13 +1440,17 @@ body {
 }
 
 .testimonials-contact h5 {
+    margin-bottom: 7.5px;
     color: #F13C5B;
     font-size: 22px;
     font-family: 'Quicksand';
     font-weight: bold;
+    text-align: left;
 }
 
 .testimonials-contact p {
+    font-family: 'Quicksand',
+        sans-serif;
     font-size: 16px;
     line-height: 25px;
     color: #031d5b;
@@ -1474,6 +1505,10 @@ body {
     width: 40px;
     color: #f13c5b;
     margin-bottom: 40px;
+}
+
+.testimonial-card:hover .testimonial-card-speech-mark {
+    color: #ffffff;
 }
 
 @media only screen and (max-width:1368px) {
@@ -1609,6 +1644,7 @@ body {
     font-weight: 300;
     font-family: 'Open Sans';
     color: #364455;
+    margin-bottom: 25px;
 }
 
 .testimonial-card-author {
@@ -1971,10 +2007,10 @@ input[type="checkbox"]:focus+label::before {
         transition: all .4s;
     }
 
-.custom-menu .nav-link.nav-btn {
-    color: #fff !important;
-margin-top: 5px;
-}
+    .custom-menu .nav-link.nav-btn {
+        color: #fff !important;
+        margin-top: 5px;
+    }
 
     .custom-menu .nav-item {
         opacity: 0;
@@ -2165,3 +2201,17 @@ canvas {
     width: auto;
     height: 33.5px;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, Ipad 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
