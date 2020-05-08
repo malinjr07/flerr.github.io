@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta property="og:url" content="https://flerr.co" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Flerr" />
@@ -20,15 +20,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="css/open-sans.css">
-    <link rel="stylesheet" type="text/css" href="css/nunito.css">
-    <link rel="stylesheet" type="text/css" href="css/quicksand.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/open-sans.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/nunito.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/quicksand.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
-    <!-- Responsive menu -->
     <link rel="stylesheet" href="css/menu.css" />
-    <!-- CSS for social.html -->
-    <link rel="stylesheet" href="css/social.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <style type="text/css">
     @media only screen and (max-width: 1024px) {
         .phones-animation {
@@ -110,19 +108,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto d-flex menu01 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase brand-link" href="index.html#brand">Brand</a>
+                            <a class="nav-link text-uppercase brand-link" href="#">Brand</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase web-link" href="index.html#web">Web</a>
+                            <a class="nav-link text-uppercase web-link" href="#">Web</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase apps-link" href="index.html#apps">Apps</a>
+                            <a class="nav-link text-uppercase apps-link" href="#">Apps</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase social-link" href="social.html">Social</a>
+                            <a class="nav-link text-uppercase social-link" href="#">Social</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase casebook-link" href="index.html#case">Casebook</a>
+                            <a class="nav-link text-uppercase casebook-link" href="#">Casebook</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase nav-btn contact-link" href="#">Grow my business</a>
@@ -402,7 +400,7 @@
                                     <img src="assets/SVG/Social/Services/Analyse.svg" alt="Analyse" class="img-fluid">
                                 </div>
                                 <div class="text01">
-                                    <h5>Analyse</h5>
+                                    <h5>Analysis</h5>
                                     <p>Data Analytics <br>
                                         Business Insights <br>
                                         Success Metrics <br>
@@ -632,98 +630,45 @@
         emailjs.init("user_Gpy9sANtRm5VVKdgJtdo9");
     })();
     </script>
-    <script type="text/javascript">
-    if (window.location.hash)
-        scroll(0, 0);
-    // takes care of some browsers issue
-    setTimeout(function() { scroll(0, 0); }, 1);
-    $(function() {
-        //your current click function
-        $('.scroll').on('click', function(e) {
-            e.preventDefault();
-            $('html,body').animate({
-                scrollTop: $($(this).attr('href')).offset().top + 'px'
-            }, 1000, 'swing');
+
+<script>
+        new WOW().init();
+        $('.navbar-toggler').click(function () {
+            $('.navbar-toggler').toggleClass("collapsed");
+
+            $(".custom-menu").toggle("fast", function () {
+
+                if ($(".custom-menu").is(":visible")) {
+
+                    $('.custom-menu').css('height', '250px').css('transition',
+                        'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s').css(
+                        '-webkit-transition', 'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s'
+                        );
+                    $('.custom-menu .nav-item').delay(300).fadeTo(300, 1);
+
+
+                } else {
+                    $('.custom-menu').css('height', '0');
+                    $('.custom-menu .nav-item').css('opacity', '0');
+                }
+
+            });
         });
 
-        // if we have anchor on the url (calling from other page)
-        if (window.location.hash) {
-            // smooth scroll to the anchor id
-            $('html,body').animate({
-                scrollTop: $(window.location.hash).offset().top + 'px'
-            }, 1000, 'swing');
-        }
-    });
-    </script>
-    <script>
-    $(function() {
-
-        var scrollLink = $('.scroll');
-
-        // Smooth scrolling
-        scrollLink.click(function(e) {
-            e.preventDefault();
-            $('body,html').animate({
-                scrollTop: $(this.hash).offset().top
-            }, 1000);
-        });
-
-        // Active link switching
-        $(window).scroll(function() {
-            var scrollbarLocation = $(this).scrollTop();
-
-            scrollLink.each(function() {
-
-                var sectionOffset = $(this.hash).offset().top - 20;
-
-                if (sectionOffset <= scrollbarLocation) {
-                    $(this).parent().addClass('active');
-                    $(this).parent().siblings().removeClass('active');
+        // Clicking on Link will close the menu if opened
+        if (window.matchMedia("(max-width: 992px)").matches) {
+            $(".custom-menu .nav-link").click(function () {
+                // alert("Hello");
+                if ($('.navbar-toggler').hasClass("collapsed")) {
+                    $('.navbar-toggler').toggleClass("collapsed");
+                    $('.custom-menu').css('height', '0');
+                    $('.custom-menu .nav-item').css('opacity', '0');
+                    $(".custom-menu").css('display', 'none');
                 }
             })
-
-            $(".active").css("color", "#fcac45");
-
-        })
-
-    })
-
-    new WOW().init();
-    $('.navbar-toggler').click(function() {
-        $('.navbar-toggler').toggleClass("collapsed");
-
-        $(".custom-menu").toggle("fast", function() {
-
-            if ($(".custom-menu").is(":visible")) {
-
-                $('.custom-menu').css('height', '250px').css('transition',
-                    'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s').css(
-                    '-webkit-transition', 'height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s'
-                );
-                $('.custom-menu .nav-item').delay(300).fadeTo(300, 1);
-
-
-            } else {
-                $('.custom-menu').css('height', '0');
-                $('.custom-menu .nav-item').css('opacity', '0');
-            }
-
-        });
-    });
-
-    // Clicking on Link will close the menu if opened
-    if (window.matchMedia("(max-width: 992px)").matches) {
-        $(".custom-menu .nav-link").click(function() {
-            // alert("Hello");
-            if ($('.navbar-toggler').hasClass("collapsed")) {
-                $('.navbar-toggler').toggleClass("collapsed");
-                $('.custom-menu').css('height', '0');
-                $('.custom-menu .nav-item').css('opacity', '0');
-                $(".custom-menu").css('display', 'none');
-            }
-        })
-    }
+        }
     </script>
+
     <script type="text/javascript">
     window.onload = function() {
         document
