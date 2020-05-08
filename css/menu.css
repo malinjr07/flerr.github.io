@@ -17,53 +17,64 @@
     }
 }
 
-
-.navbar.navbar-dark.bg-dark li {
-    padding: 0 .5rem;
+.menu13 {
+    padding: 31.5px 0;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.04);
 }
 
-.navbar.navbar-dark.bg-dark a {
-    color: #fff !important;
-    font-size: .9rem;
+.menu13 .menu01 .nav-item {
+    padding: 0 31.5px;
+}
+
+.menu13 .menu01 .nav-item .nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #071f3a;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 
-.navbar.navbar-dark.bg-dark a:hover {
-    color: #F13C5B !important;
+.menu13 .menu01 .nav-item .nav-link:hover {
+    color: #f13c5b;
 }
 
-.nav-btn {
-    padding: .85rem 1.45rem !important;
+.menu13 .menu01 .nav-item .nav-btn {
+    font-weight: 700;
+    color: #ffffff;
+    padding: 14.5px 20px;
     background: #f13c5b;
-    color: #fff;
-    border: none;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
     border-radius: 10px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700 !important;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    border: none;
+    font-size: .9rem;
 }
 
-.navbar.navbar-dark.bg-dark a.nav-btn:hover {
+.menu13 .menu01 .nav-item .nav-btn:hover {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
-    color: #fff !important;
-    background: #f4546f !important;
+    color: #fff;
+    background: #f4546f;
 }
 
-.nav-btn:hover {
-    background: #f4546f !important;
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-    color: #fff !important;
-    text-decoration: none;
+.menu13 .menu01 .nav-item:first-child {
+    padding-left: 0;
+}
+
+.menu13 .menu01 .nav-item:last-child {
+    padding-right: 0;
 }
 
 
