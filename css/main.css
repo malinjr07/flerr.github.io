@@ -1,35 +1,3 @@
-	.container-fluid,
-	.container-lg,
-	.container-md,
-	.container-sm,
-	.container-xl {
-	    width: 100%;
-	    padding-right: 15px;
-	    padding-left: 15px;
-	    padding-bottom: 15px;
-	    margin-right: auto;
-	    margin-left: auto
-    }
-    
-    .col-md-6 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 100%
-    }
-
-    .col-md-4 {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 25%
-    }
-
-    .offset-md-3 {
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    
-
 /*Animations*/
 
 @-webkit-keyframes live-logo-grow {
@@ -208,6 +176,8 @@
     margin: 0;
     padding: 0;
 }
+
+html {}
 
 body {
     overflow-x: hidden;
@@ -423,6 +393,8 @@ body {
 }
 
 /** About **/
+
+.section-about {}
 
 .section-about-top {
     background: #F8F9FC;
@@ -680,6 +652,10 @@ body {
     transition: all .6s;
 }
 
+.services-card img:hover {
+    /*height: 58px;*/
+}
+
 .services-card:not(:last-child) {
     margin-right: 2rem;
 }
@@ -708,6 +684,7 @@ body {
 }
 
 @media only screen and (max-width:991px) {
+    .services-card {}
 
     .services-card:not(:last-child) {
         margin-right: 1.25rem;
@@ -812,7 +789,7 @@ body {
 .section-services-web-box-bottom {
     -webkit-box-shadow: 8px 0px 30px rgba(175, 175, 175, 0.5);
     box-shadow: 8px 0px 30px rgba(175, 175, 175, 0.5);
-    background-image: -webkit-linear-gradient(linear, left top, right top, from(#93c934), to(#5db837));
+    background-image: -webkit-gradient(linear, left top, right top, from(#93c934), to(#5db837));
     background-image: -webkit-linear-gradient(left, #93c934, #5db837);
     background-image: -o-linear-gradient(left, #93c934, #5db837);
     background-image: linear-gradient(to right, #93c934, #5db837);
@@ -852,6 +829,8 @@ body {
     .section-services-web-box-top:hover {
         width: 40%;
     }
+
+    .section-services-web-box-bottom:hover {}
 
     .section-services-web-shape {
         width: 95%;
@@ -1123,7 +1102,7 @@ body {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-image: -webkit-linear-gradient(linear, left top, right top, from(#67C5E2), to(#5AA2FA));
+    background-image: -webkit-gradient(linear, left top, right top, from(#67C5E2), to(#5AA2FA));
     background-image: -webkit-linear-gradient(left, #67C5E2, #5AA2FA);
     background-image: -o-linear-gradient(left, #67C5E2, #5AA2FA);
     background-image: linear-gradient(to right, #67C5E2, #5AA2FA);
@@ -1183,12 +1162,6 @@ body {
     }
 }
 
-@media only screen and (max-width:1024px) {
-    .section-services-app-box-top {
-        width: 52%;
-        top: -9%;
-    }
-}
 
 @media (min-width: 1024px) and (max-width:1367px) {
     .section-services-app-box-top {
@@ -1201,10 +1174,27 @@ body {
     }
 }
 
+
 @media only screen and (max-width:1083px) {
     .section-services-app-box-top {
         top: -11%;
     }
+}
+
+@media only screen and (max-width:1024px) {
+    .section-services-app-box-top {
+        width: 52%;
+        top: -9%;
+    }
+
+    .section-services-app-box-top:hover {
+        width: 54%;
+    }
+
+    .case_text {
+        padding: 0 6.5rem !important;
+    }
+
 }
 
 @media only screen and (max-width:950px) {
@@ -1252,7 +1242,7 @@ body {
     .section-services-app-box-top {
         top: -4%;
         height: 115px;
-        width: 90%;
+        width: 90% !important;
     }
 
     .section-services-app-box-top p {
@@ -1277,7 +1267,9 @@ body {
     width: 490px;
 }
 
-@media only screen and (max-width:890px) {}
+@media only screen and (max-width:890px) {
+    .section-services-app-box-top p {}
+}
 
 @media only screen and (max-width:769px) {
     .section-services-app-box-top p {
@@ -1321,6 +1313,8 @@ body {
 }
 
 /** Casebook **/
+
+
 
 .casebook {
     font-family: "Quicksand", sans-serif;
@@ -1387,18 +1381,19 @@ body {
 }
 
 #casebook_desktop img {
-    -webkit-transform: scale(.95);
-    -ms-transform: scale(.95);
-    transform: scale(.95);
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%) scale(.95);
+    -ms-transform: translateX(-50%) scale(.95);
+    transform: translateX(-50%) scale(.95);
     -webkit-transition: all .6s;
     -o-transition: all .6s;
     transition: all .6s;
 }
 
 #casebook_desktop img:hover {
-    -webkit-transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(1.0) translateX(-50%);
+    -ms-transform: scale(1.0) translateX(-50%);
+    transform: scale(1.0) translateX(-50%);
 }
 
 #casebook_desktop.mobile {
@@ -1408,7 +1403,7 @@ body {
 @media (max-width: 1200px) {
     #casebook_desktop.mobile {
         display: block;
-        padding: 30px;
+        padding-top: 8rem;
     }
 
     #casebook_desktop.desktop {
@@ -1431,13 +1426,24 @@ body {
     background-repeat: repeat;
 }
 
-@media screen and (max-width:414px) {
+@media only screen and (max-width:414px) {
     .section-testimonials::before {
         content: url(../assets/SVG/Speech\ Mark@2x.svg);
         position: absolute;
         width: auto;
         z-index: -1;
     }
+
+    .case_text {
+        padding: 0 !important;
+    }
+
+    ​#casebook_desktop.mobile {
+        padding-top: 8rem !important;
+    }
+footer .social25 {
+    margin-left: 30px;
+}
 }
 
 .section-testimonials h2 {
@@ -1650,6 +1656,7 @@ body {
     .section-services-web-box-top {
         width: 90%;
     }
+
 }
 
 
@@ -1727,6 +1734,8 @@ body {
     .section-services-app-box-top {
         width: 65%;
     }
+
+    .section-services-app-box-top p {}
 
     .section-services {
         padding-bottom: 32px
@@ -1861,6 +1870,8 @@ body {
     color: #fff;
     margin-left: 4px;
 }
+
+.section-contact form .form-check .form-check-input {}
 
 .form-logo {
     margin: 7rem 0;
@@ -2059,6 +2070,18 @@ input[type="checkbox"]:focus+label::before {
 @media only screen and (max-width: 480px) {
     .checkbox label {
         padding-left: 32px;
+    }
+
+    #casebook_desktop.mobile {
+        padding-top: 8rem !important;
+    }
+
+    .testimonials-contact {
+        width: 396px !important;
+        padding: 25px 40px !important;
+    }
+    footer .forms18 {
+        width: 100% !important;
     }
 }
 
@@ -2331,9 +2354,20 @@ canvas {
 
 /* Small devices (landscape phones, 576px and up) */
 
+@media (max-width: 576px) {
+    #casebook_desktop img {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        margin-left: -4px;
+        width: 117%;
+    }
+}
+
 /*@media (min-width: 576px) and (max-width: 767.98px) {}*/
 
 @media only screen and (max-width:375px) {
+
     .section-services-web-box-top {
         width: 90%;
     }
@@ -2344,6 +2378,10 @@ canvas {
 
     .testimonials-contact-container {
         padding-top: 0px;
+    }
+    .testimonials-contact {
+        width: 396px !important;
+        padding: 35px 40px !important;
     }
 }
 
@@ -2387,7 +2425,7 @@ canvas {
 
 /* Medium devices (tablets, iPad 768px and up) */
 
-@media (min-width: 736px) and (max-width: 1024px) {
+@media (min-width: 736px) and (max-width: 992px) {
 
     .about-box p {
         margin-bottom: 1.5rem;
@@ -2433,11 +2471,108 @@ canvas {
 
     .text13 {
         width: 500px;
+        margin: 0 auto;
     }
+
+    #casebook_desktop {
+        background-color: #F8F9FC;
+        clip-path: none;
+        overflow: hidden;
+        margin-top: 0;
+        position: relative;
+    }
+
+    #casebook_desktop img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #casebook_desktop.mobile {
+        padding-top: 70px;
+    }
+
+    .section-testimonials {
+        padding-top: 5px;
+    }
+
+    .testimonials-contact {
+        max-width: 465px;
+        position: absolute !important;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2px solid #e4e8f6;
+        border-radius: 10px;
+        padding: 37.5px 48px;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media only screen and (max-width: 1024px) {
+    .navbar.navbar-dark.bg-dark .nav-item {
+        padding: 0 18.5px;
+    }
+
+    .header-featured-hr {
+        margin-left: -3%;
+    }
+
+    .section-testimonials {
+        padding-bottom: 22rem;
+    }
+
+    .testimonials-contact {
+        width: 414px;
+        position: absolute !important;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2px solid #e4e8f6;
+        border-radius: 10px;
+        padding: 25px 48px;
+    }
+
+    .flerr-address-icon {
+        top: 50%;
+    }
+
+    .section-services-app-box-top {
+        width: 53%;
+    }
+
+    .section-testimonials-container {
+        padding-bottom: 0;
+    }
+
+    .section-services-app-box-top:hover {
+        width: 54%;
+    }
+
+    .section-services-app-images img {
+        display: none;
+    }
+
+    #casebook_desktop {
+        clip-path: none;
+    }
+
+    #casebook_desktop.mobile {
+        padding-top: 5rem;
+    }
+
+    .case_text {
+        padding: 0 7rem;
+    }
+
+    #casebook_desktop img {
+        margin-top: -20px;
+    }
+
+    footer .forms18 {
+        width: 75%;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
