@@ -22,6 +22,12 @@
     padding: 0 31.5px;
 }
 
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .menu13 .menu01 .nav-item {
+        padding: 0 18px;
+    }
+}
+
 .menu13 .menu01 .nav-item .nav-link {
     font-family: 'Nunito', sans-serif;
     font-style: normal;

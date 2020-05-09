@@ -1764,7 +1764,7 @@ footer .social25 .link30 {
 /* Responsive Navbar */
 /*  Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
+@media (max-width: 736px) {
   .mini_none {
     display: none;
   }
@@ -2257,27 +2257,121 @@ footer .social25 .link30 {
     left: 10px;
   }
 }
+
 @media (max-width: 379.98px) {
   .digit18 .title06 h2 {
     line-height: 32px;
   }
+
   .digit18 .top .up,
   .digit18 .top .down {
     left: 20%;
   }
+
   .digit18 .bottom .down {
     right: -1%;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) and (max-width: 991.98px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-/* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) and (max-width: 1199.98px) {}
+  .service13 .slogan01 h4 {
+    font-size: 23px;
+    line-height: 32px;
+  }
 
-/* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) {}
+  .digit18 .tiktok3 {
+    bottom: 167px;
+    left: 22%;
+    width: 38px;
+  }
+
+  .service13 .retweet52 {
+    right: 22%;
+  }
+
+  .service13 .omg02 {
+    top: 25%;
+  }
+
+  .service13 .lg12 {
+    left: 6%;
+  }
+
+  .service13 .play45 {
+    right: 6%;
+  }
+
+  .digit18 .like20 {
+    left: 12%;
+  }
+
+  .digit18 .cmnt10 {
+    top: 210px;
+    right: 11%;
+  }
+
+  .digit18 .shapes04 .l0v {
+    right: 15%;
+  }
+
+  .digit18 .shapes04 .omg02 {
+    left: 17%;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .pink h4 {
+    width: 335px;
+    height: 75px;
+    padding: 5px 0 0 15px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .rect99 {
+    width: 345px;
+    height: 75px;
+    padding: 10px 10px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .rect99 h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  .digit18 .shapes04 .left .up {
+    left: 18%;
+    top: -55%;
+  }
+
+  .digit18 .shapes04 .left .down {
+    left: 18%;
+    top: 128%;
+  }
+
+  .digit18 .shapes04 .right .up {
+    top: -56%;
+    left: 46%;
+  }
+
+  .digit18 .shapes04 .right .down {
+    bottom: -57%;
+    left: 66%;
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {}
