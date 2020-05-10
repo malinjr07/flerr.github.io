@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1912px" height="667px" viewBox="0 0 1912 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AD BG</title>
+    <defs>
+        <linearGradient x1="0%" y1="56.0320028%" x2="79.6727641%" y2="41.2076239%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="45.1276508%"></stop>
+            <stop stop-color="#FFFFFF" offset="60.7929913%"></stop>
+            <stop stop-color="#F8F9FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(0.000000, -3355.000000)" fill="url(#linearGradient-1)">
+            <g id="AD-Services" transform="translate(-74.000000, 3297.000000)">
+                <polygon id="AD-BG" transform="translate(1030.500000, 391.613129) scale(-1, -1) translate(-1030.500000, -391.613129) " points="70 190.602339 70 725.226259 1991 725.226259 1991 58"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

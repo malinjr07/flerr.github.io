@@ -403,6 +403,16 @@ footer a {
 
 footer .social25 {
     float: left;
+    width: 100%;
+}
+
+@media (min-width:375px) and (max-width: 753px) {
+
+    footer .social25 {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+    }
 }
 
 footer .social25 .link30 {
@@ -410,7 +420,17 @@ footer .social25 .link30 {
     margin: 0 15px;
 }
 
-@media (max-width: 575.98px) {
+/*@media (min-width:768px) and (max-width:1024) {
+    
+    footer .social25 {
+        float: left;
+        width: 100%;
+        margin-left: 100%;
+    }
+}*/
+
+@media (max-width: 1024px) {
+        
     footer {
         padding-bottom: 150px;
         padding-top: 145px;
