@@ -1763,6 +1763,15 @@ footer .social25 .link30 {
 /* Responsive Design Starts from Here */
 /* Responsive Navbar */
 
+@media (min-width: 1200px) {
+  .full-width {
+    min-width: 1140px !important;
+  }
+
+  footer .social25 {
+    padding-left: 50px;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
@@ -1938,6 +1947,7 @@ footer .social25 .link30 {
   .service13 .slogan01 .msg25 {
     left: -30%;
   }
+
   .service13 .content18 {
     min-width: 100%;
   }
@@ -1948,13 +1958,14 @@ footer .social25 .link30 {
   }
 
   .ml-0 {
-     margin: 15px !important; 
+    margin: 15px !important;
   }
 
   .service13 .content18 .part21 {
     margin: 15px;
     width: 45%;
   }
+
   .service13 .content18 .part21 .serv06 {
     margin: 0 auto;
   }

@@ -118,6 +118,10 @@ body {
     .full-width {
         min-width: 1140px !important;
     }
+    
+    footer .social25 {
+        padding-left: 250px;
+    }
 }
 
 
