@@ -1392,7 +1392,7 @@ body {
     padding: 0px;
 }
 
-#casebook_desktop {
+.case_part {
     /*background-color: #F8F9FC;*/
     background-image: linear-gradient(-33deg, #FFFFFF 0%, #FFFFFF 45%, #FFFFFF 60%, #F8F9FC 100%);
     -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0% 10%);
@@ -1402,7 +1402,7 @@ body {
     position: relative;
 }
 
-#casebook_desktop img {
+.case_part img {
     -webkit-transform: scale(.95);
     -ms-transform: scale(.95);
     transform: scale(.95);
@@ -1411,23 +1411,23 @@ body {
     transition: all .6s;
 }
 
-#casebook_desktop img:hover {
+.case_part img:hover {
     -webkit-transform: scale(1.0);
     -ms-transform: scale(1.0);
     transform: scale(1.0);
 }
 
-#casebook_desktop.mobile {
+.case_part.mobile {
     display: none;
 }
 
 @media (max-width: 1200px) {
-    #casebook_desktop.mobile {
+    .case_part.mobile {
         display: block;
         padding-top: 8rem;
     }
 
-    #casebook_desktop.desktop {
+    .case_part.desktop {
         display: none;
     }
 
@@ -2348,7 +2348,7 @@ canvas {
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 576px) {
-    #casebook_desktop img {
+    .case_part img {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
@@ -2466,7 +2466,7 @@ canvas {
         width: 500px;
     }
 
-    #casebook_desktop {
+    .case_part {
         background-color: #F8F9FC;
         -webkit-clip-path: none;
         clip-path: none;
@@ -2475,7 +2475,7 @@ canvas {
         position: relative;
     }
 
-    #casebook_desktop img {
+    .case_part img {
         margin-left: 10%;
         margin-top: -2%;
         margin-bottom: -3%;
@@ -2488,7 +2488,7 @@ canvas {
         transition: all .6s;
     }
 
-    #casebook_desktop.mobile {
+    .case_part.mobile {
         padding-top: 70px;
     }
 
