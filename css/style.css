@@ -1948,6 +1948,153 @@ footer .social25 .link30 {
     left: -30%;
   }
 
+  .service13 .lg12 {
+    left: 6%;
+    top: 325px;
+  }
+
+  .service13 .play45 {
+    right: 7%;
+  }
+
+  .service13 .omg02 {
+    top: 24%;
+  }
+
+  .service13 .content18 {
+    min-width: 100%;
+  }
+
+  .service13 .content18 .part21 .serv06 {
+    display: block;
+    clear: both;
+  }
+
+  .ml-0 {
+    margin: 15px !important;
+  }
+
+  .service13 .content18 .part21 {
+    margin: 15px;
+    width: 45%;
+  }
+
+  .service13 .content18 .part21 .serv06 {
+    margin: 0 auto;
+  }
+
+  .forms18 .check152 .checkbox {
+    width: 100px;
+  }
+
+  footer .social25 {
+    margin-left: -34%;
+  }
+
+  .text13 {
+    width: 129%;
+    margin-left: -15%;
+  }
+
+  .d-md-block {
+    margin-right: 8%;
+  }
+
+  footer .copy13 p {
+    margin-right: -12px;
+  }
+}
+
+@media only screen and (width:812px) and (orientation: landscape) {
+
+  .digit18 .slogan21 h3 {
+    font-size: 28px;
+    margin: 0 -20%;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .rect99 {
+    margin-left: -50px;
+    width: 285px;
+    height: 70px;
+    font-size: 11px;
+    padding-right: 10px;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .rect99 h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+    text-align: left;
+    padding: 6px 80px 5px 5px;
+    width: 332px;
+  }
+
+  .digit18 .shapes04 .box_grp07 .box_rel .path19 {
+    left: 45%;
+  }
+
+  .digit18 .shapes04 .left .up {
+    left: -2%;
+  }
+
+  .digit18 .shapes04 .left .down {
+    bottom: -63%;
+    left: 29%;
+  }
+
+  .digit18 .like20 img {
+    left: -70px;
+    top: 100px;
+  }
+
+  .digit18 .cmnt10 {
+    top: 250px;
+    right: 100px;
+  }
+
+  .digit18 .shapes04 .right .up {
+    left: 38%;
+  }
+
+  .digit18 .shapes04 .right .down {
+    left: 67%;
+  }
+
+  .service13 .slogan01 h4 {
+    width: 165%;
+    margin-left: -30%;
+  }
+
+  .service13 .retweet52 {
+    right: 19%;
+    top: -100px;
+  }
+
+  .digit18 .tiktok3 {
+    left: 19%;
+    top: 990px;
+  }
+
+  .service13 .slogan01 .msg25 {
+    left: -30%;
+  }
+
+  .service13 .lg12 {
+    left: 6%;
+    top: 325px;
+  }
+
+  .service13 .play45 {
+    right: 7%;
+  }
+
+  .service13 .omg02 {
+    top: 24%;
+  }
+
   .service13 .content18 {
     min-width: 100%;
   }
@@ -2498,6 +2645,19 @@ footer .social25 .link30 {
   }
 
 }
+
+@media (max-width: 736px) and (orientation: landscape) {
+  .digit18 .free01 .locker01 {
+    padding-left: 10.5%;
+  }
+  .digit18 .shapes04 .l0v {
+    right: 100px;
+  }
+  .digit18 .shapes04 .omg02 img {
+    margin-left: 40px;
+  }
+}
+
 
 @media (max-width: 379.98px) {
   .digit18 .title06 h2 {
