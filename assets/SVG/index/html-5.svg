@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="HTML-5">
+    <g id="HTML-5">
+      <path d="M27.5 55C42.6878 55 55 42.6878 55 27.5C55 12.3122 42.6878 0 27.5 0C12.3122 0 0 12.3122 0 27.5C0 42.6878 12.3122 55 27.5 55Z" id="Oval-2" fill="#F16529" stroke="none" />
+      <path d="M27.5 0C12.3122 0 0 12.3122 0 27.5C0 42.6878 12.3122 55 27.5 55L27.5 2.66454e-15L27.5 0Z" id="Combined-Shape" fill="#E44D26" fill-rule="evenodd" stroke="none" />
+      <g id="5" transform="translate(10.11029 9.705883)">
+        <path d="M0 0L17.3897 0L17.3897 6.92168L7.59656 6.92168L8.23723 14.0111L17.3897 14.0111L17.3897 20.9175L1.89151 20.9175M2.19659 24.3936L9.15248 24.3936L9.64061 29.9279L17.3897 32.0013L17.3897 39.2279L3.17286 35.264" id="Shape" fill="#EBEBEB" stroke="none" />
+        <path d="M17.3897 0L0 0L0 6.92707L16.7479 6.92707M16.1214 14.022L0 14.022L0 20.949L8.55733 20.949L7.74744 29.9512L0 32.0262L0 39.2279L14.2113 35.2914" transform="translate(17.38971 0)" id="Shape" fill="#FFFFFF" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

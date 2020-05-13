@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="CSS-3">
+    <g id="CSS-3">
+      <path d="M27.5 55C42.6878 55 55 42.6878 55 27.5C55 12.3122 42.6878 0 27.5 0C12.3122 0 0 12.3122 0 27.5C0 42.6878 12.3122 55 27.5 55Z" id="Oval-2" fill="#2965F1" stroke="none" />
+      <path d="M27.5 0C12.3122 0 0 12.3122 0 27.5C0 42.6878 12.3122 55 27.5 55L27.5 2.66454e-15L27.5 0Z" id="Combined-Shape" fill="#264DE4" fill-rule="evenodd" stroke="none" />
+      <g id="3" transform="translate(11.54656 11.01689)">
+        <path d="M0 0L0.568291 6.4146L14.7574 6.4146L14.7574 0L0 0Z" transform="translate(1.212607 13.02654)" id="polygon2993" fill="#EBEBEB" stroke="none" />
+        <path d="M15.8993 0L15.8774 0L0 0L0.57639 6.41474L15.8993 6.41474L15.8993 0Z" transform="translate(0.07071903 0.04308418)" id="polygon2995" fill="#EBEBEB" stroke="none" />
+        <path d="M13.9058 13.7115L13.9058 7.03755L13.878 7.04504L6.81642 5.116L6.365 0L2.93361 0L0 0L0.888321 10.072L13.8766 13.7197L13.9058 13.7115Z" transform="translate(2.064206 22.64858)" id="polygon2997" fill="#EBEBEB" stroke="none" />
+        <path d="M8.0373 19.3981L7.27968 27.7174L0 29.6484L0 36.3221L13.3807 32.6774L13.4789 31.5937L15.0127 14.706L15.172 12.9835L16.3503 0L0 0L0 6.41474L9.19723 6.41474L8.60332 12.9835L0 12.9835L0 19.3981L8.0373 19.3981Z" transform="translate(15.95704 0.04308418)" id="polygon3005" fill="#FFFFFF" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

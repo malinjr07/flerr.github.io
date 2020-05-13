@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M27.5 53.6894C42.6878 53.6894 55 41.6706 55 26.8447C55 12.0188 42.6878 0 27.5 0C12.3122 0 0 12.0188 0 26.8447C0 41.6706 12.3122 53.6894 27.5 53.6894Z" transform="translate(0 0.6316394)" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Angular">
+    <g id="Angular">
+      <g id="Combined-Shape-+-Shape-Mask">
+        <path d="M27.5 53.6894C42.6878 53.6894 55 41.6706 55 26.8447C55 12.0188 42.6878 0 27.5 0C12.3122 0 0 12.0188 0 26.8447C0 41.6706 12.3122 53.6894 27.5 53.6894Z" transform="translate(0 0.6316394)" id="Mask" fill="#DD0031" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <path d="M27.1765 0L27.1765 53.6894C12.1673 53.6894 0 41.6706 0 26.8447C0 12.0188 12.1673 0 27.1765 0L27.1765 0Z" transform="translate(0 0.6316394)" id="Combined-Shape" fill="#C3002F" stroke="none" />
+          <path d="M0 50.5312L23.0101 0L45.9412 50.5312L37.3618 50.5312L32.7361 39.2246L13.2051 39.2246L8.57938 50.5312L0 50.5312ZM23.0101 16.4178L16.289 32.2548L29.7313 32.2548L23.0101 16.4178Z" transform="translate(4.529412 0)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

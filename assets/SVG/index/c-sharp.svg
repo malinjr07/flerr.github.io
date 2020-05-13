@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="C#">
+    <g id="C#">
+      <path d="M27.5 55C42.6878 55 55 42.6878 55 27.5C55 12.3122 42.6878 0 27.5 0C12.3122 0 0 12.3122 0 27.5C0 42.6878 12.3122 55 27.5 55Z" id="Oval-2" fill="#3F8F2B" stroke="none" />
+      <path d="M0 16.8438C0 7.54359 7.54359 0 16.8438 0C26.1439 0 33.6875 7.54359 33.6875 16.8438C33.6875 26.1439 26.1439 33.6875 16.8438 33.6875C7.54359 33.6875 0 26.1439 0 16.8438ZM8.42188 16.8438C8.42188 21.4878 12.1997 25.2656 16.8438 25.2656C21.4878 25.2656 25.2656 21.4878 25.2656 16.8438C25.2656 12.1997 21.4878 8.42188 16.8438 8.42188C12.1997 8.42188 8.42188 12.1997 8.42188 16.8438Z" transform="translate(11 10.3125)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M23.1764 0C23.8094 0.590006 23.7972 1.47929 23.7972 2.17924C23.7972 6.815 23.7579 20.0004 23.8082 24.6361C23.8131 25.1199 23.6524 25.6292 23.412 26.0128L0 13.1866L23.1764 0Z" transform="translate(27.53364 14.14985)" id="Shape" fill="#3F8F2B" stroke="none" />
+      <path d="M0 0L1.32269 0L1.32269 9.69969L0 9.69969L0 0Z" transform="translate(40.3196 22.52685)" id="Rectangle-path" fill="#FFFFFF" stroke="none" />
+      <path d="M0 0L1.32269 0L1.32269 9.69969L0 9.69969L0 0Z" transform="translate(43.84676 22.52685)" id="Rectangle-path" fill="#FFFFFF" stroke="none" />
+      <path d="M0 0L9.69969 0L9.69969 1.32268L0 1.32268L0 0Z" transform="translate(38.11512 28.69938)" id="Rectangle-path" fill="#FFFFFF" stroke="none" />
+      <path d="M0 0L9.69969 0L9.69969 1.32269L0 1.32269L0 0Z" transform="translate(38.11512 24.73133)" id="Rectangle-path" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>
