@@ -35,7 +35,6 @@ input,
 form,
 img,
 a,
-label,
 .btn {
   padding: 0;
   margin: 0;
@@ -93,7 +92,8 @@ h6 {
 }
 p {
   font-style: normal;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 16px;
 }
 body {
   overflow-x: hidden;
@@ -741,6 +741,20 @@ body {
   animation-name: fadeInUp;
 }
 /* Keyframes End Here 012 */
+.index_page .menu13 {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+.index_page .menu13 .menu01 .nav-item .nav-link {
+  color: #ffffff;
+}
+.index_page .menu13 .menu01 .nav-item .nav-link:hover {
+  color: #f13c5b;
+}
 .social_page {
   /* Social Page */
   /* Responsive Design Starts from Here */

@@ -25,6 +25,7 @@ img {
     display: none;
 }
 
+
 h1,
 h2,
 h3,
@@ -41,72 +42,104 @@ input,
 form,
 img,
 a,
-label,
 .btn {
     padding: 0;
     margin: 0;
 }
 
 /* Color */
+
+@white: #fff;
+@black: #000;
+@b_gray: #A9B8CA;
+@gray: #999999;
+@green: #54EA41;
+@pink: #F13C5B;
+@d_gray: #6F7B88;
+@blue: #023068;
+@navy: #071F3A;
+
 /* Fonts */
+
 @font-face {
     font-family: Avenir-Medium;
     src: url(../assets/fonts/Avenir-Medium.ttf);
 }
 
+@sans: 'Open Sans', sans-serif;
+
+@nunito: 'Nunito', sans-serif;
+
+@quick: 'Quicksand', sans-serif;
+
+.tran(@time) {
+    -webkit-transition: all linear @time;
+    -moz-transition: all linear @time;
+    -ms-transition: all linear @time;
+    -o-transition: all linear @time;
+    transition: all linear @time;
+}
+
+.bor(@value) {
+    -webkit-border-radius: @value;
+    -ms-border-radius: @value;
+    border-radius: @value;
+}
+
 /* Section Title */
 h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: @quick;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px;
-    color: #071f3a;
+    color: @navy;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: @quick;
     font-size: 28.5px;
     font-style: normal;
     font-weight: 300;
     line-height: 36px;
     text-align: center;
-    color: #071f3a;
+    color: @navy;
 }
 
 h4 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: @quick;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    color: #ffffff;
+    color: @white;
 }
 
 h5 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: @quick;
     font-style: normal;
     font-weight: 500;
     font-size: 18.75px;
     line-height: 23px;
     text-align: center;
-    color: #000000;
+    color: @black;
 }
 
 h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: @sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14.5637px;
     line-height: 20px;
-    color: #ffffff;
+    color: @white;
 }
 
 p {
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 body {
@@ -115,6 +148,7 @@ body {
     z-index: -999999;
     position: relative;
 }
+
 
 /* Keyframes Start Here */
 @-webkit-keyframes bounce {
@@ -886,6 +920,23 @@ body {
 }
 
 /* Keyframes End Here 012 */
+
+.index_page {
+    .menu13 {
+        background: transparent;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        .menu01 .nav-item .nav-link {
+            color: @white;
+            &:hover{
+                color: @pink;
+            }
+        }
+    }
+}
 
 .social_page {
 

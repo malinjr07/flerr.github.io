@@ -287,7 +287,7 @@ footer .social25 .link30 {
     }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
     footer {
         padding-bottom: 150px;
@@ -414,6 +414,10 @@ footer .social25 .link30 {
     footer {
         padding-bottom: 150px;
         padding-top: 145px;
+    }
+
+    footer .container{
+        padding: 0 15px;
     }
 
     footer::after {
