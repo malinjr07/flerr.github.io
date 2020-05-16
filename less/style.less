@@ -919,6 +919,21 @@ body {
     animation-name: fadeInUp;
 }
 
+.shape-bouncer {
+    position: absolute;
+    left: calc(48.7%);
+    bottom: -20px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #F13C5B;
+    border-radius: 50%;
+    padding: 10px 9px;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+    z-index: 10;
+}
+
 /* Keyframes End Here 012 */
 
 .index_page {
@@ -929,10 +944,185 @@ body {
         z-index: 1;
         left: 0;
         right: 0;
+
         .menu01 .nav-item .nav-link {
             color: @white;
-            &:hover{
+
+            &:hover {
                 color: @pink;
+            }
+        }
+    }
+
+    .banner {
+        background: url(../assets/SVG/index/top_banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        position: relative;
+
+        .overlay {
+            background: rgba(7, 31, 58, 0.90);
+
+            .slogan01 {
+                padding-top: 241px;
+                padding-bottom: 63px;
+                position: relative;
+
+                h2 {
+                    text-align: left;
+                    font-size: 44px;
+                    font-weight: 400;
+                    line-height: 61px;
+                    color: @white;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 0) 100%);
+                    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(27%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+                    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 0) 100%);
+                    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 0) 100%);
+                    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 0) 100%);
+                    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 0) 100%);
+                    bottom: 22px;
+                    left: 0;
+
+                }
+            }
+
+            .text01 {
+                padding-bottom: 312px;
+                width: 800px;
+
+                h5 {
+                    text-align: left;
+                    color: #c9c9c9;
+                    font-size: 19px;
+                    font-weight: 400;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .more01 {
+                position: absolute;
+                bottom: 0;
+                width: 75px;
+                height: 71px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 10;
+
+                .info01 {
+                    width: 100%;
+                    height: 100%;
+                    font-weight: 700;
+                    text-align: center;
+                    font-size: 12px;
+                    color: @white;
+                }
+
+                .shape-bouncer {
+                    left: calc(20.7%);
+                    -webkit-transform: none;
+                    -ms-transform: none;
+                    transform: none;
+                    z-index: 10;
+                }
+            }
+        }
+    }
+
+    .offer02 {
+        .title02 {
+            padding: 120px 7% 144px;
+
+            h4 {
+                font-size: 28.5px;
+                text-align: center;
+                color: @navy;
+            }
+        }
+
+        .blue_box02 {
+            width: 100%;
+            height: 475px;
+            background: @navy;
+            position: relative;
+
+            .services02 {
+                width: 833px;
+                margin: 0 auto;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -46px;
+                z-index: 1;
+
+                .box02 {
+                    float: left;
+                    width: 30.8%;
+                    margin: 0 11px;
+                    padding: 54px 23px 18.5px;
+                    .bor(11.25px);
+                    background: @white;
+                    -webkit-box-shadow: 0px 0px 30px rgba(55, 55, 55, 0.1);
+                    -moz-box-shadow: 0px 0px 30px rgba(55, 55, 55, 0.1);
+                    box-shadow: 0px 0px 30px rgba(55, 55, 55, 0.1);
+
+                    .tran(0.3s);
+&:hover{
+    transform: translateY(-30px);
+}
+                    .icon02 {
+                        width: 86px;
+                        margin: 0 auto;
+                        padding-bottom: 33.5px;
+                    }
+
+                    .box_title02 {
+                        padding-bottom: 25.75px;
+
+                        h4 {
+                            font-family: @nunito;
+                            font-size: 22px;
+                            line-height: 30px;
+                            font-weight: 700;
+                            color: #364455;
+                        }
+                    }
+
+                    .box_text02 {
+                        p {
+                            font-family: @quick;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 21px;
+                            text-align: center;
+                            color: #3D5C75;
+                            mix-blend-mode: normal;
+                            opacity: 0.9;
+                        }
+                    }
+                }
+
+                .box02.first {
+                    margin-left: 0;
+                }
+                .box02.last {
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -1518,23 +1708,6 @@ body {
         line-height: 17px;
         color: #6F7B88;
     }
-
-    .service13 .shape-bouncer {
-        position: absolute;
-        left: calc(48.7%);
-        bottom: -20px;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-        background: #F13C5B;
-        border-radius: 50%;
-        padding: 10px 9px;
-        -webkit-animation: bounce 3s infinite;
-        animation: bounce 3s infinite;
-        z-index: 1;
-    }
-
-    
 
     /* Responsive Design Starts from Here */
     /* Responsive Navbar */
