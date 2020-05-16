@@ -1,130 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-}
-
-ul,
-ol {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    vertical-align: middle;
-}
-
-.mini_none {
-    display: block;
-}
-
-.mini_block {
-    display: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-span,
-i,
-input,
-form,
-img,
-a,
-label,
-.btn {
-    padding: 0;
-    margin: 0;
-}
-
-/* Color */
-/* Fonts */
-@font-face {
-    font-family: Avenir-Medium;
-    src: url(../assets/fonts/Avenir-Medium.ttf);
-}
-
-/* Section Title */
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    color: #071f3a;
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
-h3 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 28.5px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 36px;
-    text-align: center;
-    color: #071f3a;
-}
-
-h4 {
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    color: #ffffff;
-}
-
-h5 {
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18.75px;
-    line-height: 23px;
-    text-align: center;
-    color: #000000;
-}
-
-h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14.5637px;
-    line-height: 20px;
-    color: #ffffff;
-}
-
-p {
-    font-style: normal;
-    font-size: 13px;
-}
-
-body {
-    overflow-x: hidden;
-    z-index: -999999;
-}
-
-@media (min-width: 1200px) {
-    .full-width {
-        min-width: 1140px !important;
-    }
-    
-    footer .social25 {
-        padding-left: 250px;
-    }
-}
-
+@import url("style.css");
 
 footer {
     padding: 176px 0;
@@ -249,6 +123,11 @@ footer .forms18 .check152 input[type="checkbox"]:focus+label::before {
     outline: #3b99fc auto 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    footer .forms18 .check152 .checkbox label {
+        padding-left: 32px;
+    }
+}
 
 footer .forms18 .button {
     font-family: 'Nunito', sans-serif;
@@ -364,9 +243,48 @@ footer::after {
     background: #435B76;
 }
 
+footer .copy13 {
+    display: inline-block;
+}
+
+footer .copy13 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 16px;
+    color: #A9B8CA;
+}
+
+footer .legal {
+    padding: 0 20px;
+}
+
+footer .link {
+    display: inline-block;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+footer .social25 {
+    float: left;
+}
+
 footer .social25 .link30 {
     float: left;
     margin: 0 15px;
+}
+
+@media (min-width: 1200px) {
+
+    footer .social25 {
+        padding-left: 50px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -374,6 +292,7 @@ footer .social25 .link30 {
     footer {
         padding-bottom: 150px;
         padding-top: 145px;
+
     }
 
     footer .container {
@@ -391,18 +310,19 @@ footer .social25 .link30 {
 
     footer .mr-0 {
         margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 
-    footer .w100 {
-        width: 55%;
+    footer .link30.mr0 {
+        margin-right: 1px !important;
     }
 
-    footer .link30.mr-0 {
-        margin-right: 7px !important;
+    footer .link30.w100 {
+        margin: 0 !important;
     }
 
     footer .forms18 {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -435,78 +355,130 @@ footer .social25 .link30 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    footer::after {
-        bottom: 240px;
+@media only screen and (width:812px) and (orientation: landscape) {
+
+    .forms18 .check152 .checkbox {
+        width: 100px;
+    }
+
+    footer .social25 {
+        margin-left: -34%;
+    }
+
+    .text13 {
+        width: 129%;
+        margin-left: -15%;
+    }
+
+    .d-md-block {
+        margin-right: 8%;
     }
 
     footer .copy13 p {
-        width: 280px;
+        margin-right: -12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .forms18 .check152 .checkbox {
+        width: 100px;
+    }
+}
+
+@media only screen and (width:768px) and (orientation: portrait) {
+    .forms18 .check152 .checkbox {
+        width: 100px;
     }
 
     footer .social25 {
-        width: 300px;
+        margin-left: -34%;
+    }
+
+    .text13 {
+        width: 129%;
+        margin-left: -15%;
+    }
+
+    .d-md-block {
+        margin-right: 8%;
+    }
+
+    footer .copy13 p {
+        margin-right: -12px;
     }
 }
 
-footer .copy13 {
-    display: inline-block;
-}
+@media (max-width: 736px) {
 
-footer .copy13 p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    line-height: 16px;
-    color: #A9B8CA;
-}
-
-footer .legal {
-    padding: 0 20px;
-}
-
-footer .link {
-    display: inline-block;
-}
-
-footer a {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    color: #ffffff;
-}
-
-footer .social25 {
-    float: left;
-    width: 100%;
-}
-
-@media (min-width:360px) and (max-width: 753px) {
-
-    footer .social25 {
-        float: left;
-        width: 100%;
-        margin-left: 0%;
+    footer {
+        padding-bottom: 150px;
+        padding-top: 145px;
     }
+
+    footer::after {
+        bottom: 203px;
+    }
+
+    footer a.text-white {
+        display: inherit;
+        text-align: right;
+    }
+
+    footer .mr-0 {
+        margin-right: 0 !important;
+    }
+
+    footer .social25 .link30 {
+        margin: 3px 7px;
+        float: right;
+    }
+
     footer .w100 {
         width: 100%;
     }
-    footer .social25 .link30 {
-        float: right;  
-        margin: -3px 7px;
+
+    footer .link30.mr0 {
+        margin-right: 1px !important;
     }
-            footer .social25 .link30.soc {
-                margin-top: 10px;
-            }
-}
 
+    footer .link30.mr-0 {
+        margin-right: 7px !important;
+    }
 
-/*@media (min-width:768px) and (max-width:1024) {
-    
-    footer .social25 {
-        float: left;
+    footer .link30.w100 {
+        margin: 0 !important;
+    }
+
+    footer .forms18 {
         width: 100%;
-        margin-left: 100%;
+        margin: 0 auto;
     }
-}*/
+
+    footer .forms18 .check152 .helper::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 4px;
+        width: 25px;
+        height: 25px;
+        transition: transform 0.28s ease;
+        border-radius: 6px;
+        border: 1.5px solid #fff;
+        background: none;
+    }
+
+    footer .forms18 .check152 .checkbox label {
+        padding-left: 30px;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+    footer .forms18 .check152 .helper::after {
+        width: 13px;
+        height: 8px;
+        top: 10px;
+        left: 10px;
+    }
+}
