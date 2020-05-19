@@ -102,6 +102,42 @@ body {
   position: relative;
 }
 /* Keyframes Start Here */
+@-webkit-keyframes live-logo-grow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: inset transparent 0 0 0 1px;
+    box-shadow: inset transparent 0 0 0 1px;
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-box-shadow: inset transparent 0 0 0 1px;
+    box-shadow: inset transparent 0 0 0 1px;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes live-logo-grow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: inset transparent 0 0 0 1px;
+    box-shadow: inset transparent 0 0 0 1px;
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-box-shadow: inset transparent 0 0 0 1px;
+    box-shadow: inset transparent 0 0 0 1px;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 @-webkit-keyframes bounce {
   0%,
   20%,
@@ -1045,10 +1081,10 @@ body {
   padding: 22px 48px;
 }
 .index_page .design04 .left_box {
-  width: 32%;
+  width: 40%;
   height: 98px;
   top: -50px;
-  left: -3%;
+  left: -7%;
   -webkit-border-radius: 0 68.4px 68.4px 0;
   -ms-border-radius: 0 68.4px 68.4px 0;
   border-radius: 0 68.4px 68.4px 0;
@@ -1059,11 +1095,11 @@ body {
   transition: all linear 0.3s;
 }
 .index_page .design04 .left_box:hover {
-  left: 0;
+  left: -5%;
 }
 .index_page .design04 .left_box .text04 {
-  padding-right: 88px;
-  padding-left: 0;
+  padding-right: 16%;
+  padding-left: 25%;
 }
 .index_page .design04 .left_box .text04 h4 {
   font-family: 'Open Sans', sans-serif;
@@ -1071,18 +1107,36 @@ body {
   font-size: 18px;
 }
 .index_page .design04 .right_box {
-  width: 341px;
+  width: 25.5%;
   height: 90px;
   -webkit-border-radius: 76px;
   -ms-border-radius: 76px;
   border-radius: 76px;
-  top: 42%;
+  top: 34%;
   right: 10%;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
 .index_page .design04 .right_box .text04 h4 {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-size: 16px;
+}
+.index_page .design04 .right_box:hover {
+  transform: scaleX(1.05);
+}
+.index_page .design04 .icon_set04 {
+  margin: 0 auto;
+  width: 85%;
+}
+.index_page .design04 .icon_set04 .icon_04 {
+  animation: live-logo-grow 3s 2.5s infinite ease-in-out;
+  width: 45px;
+  float: left;
+  margin: 17px;
 }
 .social_page {
   /* Social Page */

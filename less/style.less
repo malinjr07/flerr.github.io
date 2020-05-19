@@ -151,6 +151,48 @@ body {
 
 
 /* Keyframes Start Here */
+
+@-webkit-keyframes live-logo-grow {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-box-shadow: inset transparent 0 0 0 1px;
+        box-shadow: inset transparent 0 0 0 1px;
+    }
+
+    50% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+        -webkit-box-shadow: inset transparent 0 0 0 1px;
+        box-shadow: inset transparent 0 0 0 1px;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes live-logo-grow {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-box-shadow: inset transparent 0 0 0 1px;
+        box-shadow: inset transparent 0 0 0 1px;
+    }
+
+    50% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+        -webkit-box-shadow: inset transparent 0 0 0 1px;
+        box-shadow: inset transparent 0 0 0 1px;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 @-webkit-keyframes bounce {
 
     0%,
@@ -1289,41 +1331,61 @@ body {
         }
 
         .left_box {
-            width: 32%;
+            width: 40%;
             height: 98px;
             top: -50px;
-            left: -3%;
+            left: -7%;
             -webkit-border-radius: 0 68.4px 68.4px 0;
             -ms-border-radius: 0 68.4px 68.4px 0;
             border-radius: 0 68.4px 68.4px 0;
             .tran(0.3s);
 
             &:hover {
-               left: 0;
+                left: -5%;
             }
 
             .text04 {
-                padding-right: 88px;
-                padding-left: 0;
-                h4{
+                padding-right: 16%;
+                padding-left: 25%;
+
+                h4 {
                     font-family: @sans;
                     text-align: left;
                     font-size: 18px;
                 }
             }
         }
-        .right_box{
-            width: 341px;
+
+        .right_box {
+            width: 25.5%;
             height: 90px;
             .bor(76px);
-            top: 42%;
+            top: 34%;
             right: 10%;
+            .tran(0.2s);
+
             .text04 {
                 h4 {
                     font-family: @sans;
                     text-align: left;
                     font-size: 16px;
                 }
+            }
+
+            &:hover {
+                transform: scaleX(1.05);
+            }
+        }
+
+        .icon_set04 {
+            margin: 0 auto;
+            width: 85%;
+
+            .icon_04 {
+                animation: live-logo-grow 3s 2.5s infinite ease-in-out;
+                width: 45px;
+                float: left;
+                margin: 17px;
             }
         }
     }
