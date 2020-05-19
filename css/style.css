@@ -821,7 +821,7 @@ body {
   color: #f13c5b;
 }
 .index_page .banner01 {
-  background: url(../assets/SVG/index/top_banner.jpg);
+  background: url(../assets/img/top_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
