@@ -172,6 +172,7 @@ body {
         transform: scale(1);
     }
 }
+
 @keyframes live-logo-grow {
     0% {
         -webkit-transform: scale(1);
@@ -1249,7 +1250,7 @@ body {
 
     .design04 {
         width: 100%;
-        padding: 400px 0 90px;
+        padding: 400px 0 153px;
         position: relative;
 
         .develeopment04 {
@@ -1324,9 +1325,42 @@ body {
             background: linear-gradient(90deg, #93C934 14.63%, #5DBD37 110.45%);
             box-shadow: 7px 0px 27px rgba(178, 178, 178, 0.5);
             z-index: 12;
+            .tran(0.2s);
 
             .text04 {
                 padding: 22px 48px;
+            }
+        }
+
+        .blue_box04 {
+            .tran(0.2s);
+            position: absolute;
+            background: -moz-linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            background: -webkit-linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            background: linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            -ms-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            -webkit-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            .bor(76px);
+            width: 670px;
+            height: 115px;
+            z-index: 12;
+            bottom: -50px;
+            left: -10%;
+
+            &:hover {
+                left: -8%;
+            }
+
+            .text04 {
+                padding: 3% 10%;
+                float: right;
+                padding-left: 29%;
+
+                h4 {
+                    text-align: left;
+                    font-size: 18px;
+                }
             }
         }
 
@@ -1338,7 +1372,6 @@ body {
             -webkit-border-radius: 0 68.4px 68.4px 0;
             -ms-border-radius: 0 68.4px 68.4px 0;
             border-radius: 0 68.4px 68.4px 0;
-            .tran(0.3s);
 
             &:hover {
                 left: -5%;
@@ -1362,7 +1395,6 @@ body {
             .bor(76px);
             top: 34%;
             right: 10%;
-            .tran(0.2s);
 
             .text04 {
                 h4 {
@@ -1390,6 +1422,93 @@ body {
         }
     }
 
+    .apps05 {
+
+        position: relative;
+        padding: 100px 0 190px;
+        background: @white;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+
+        .blue_box05 {
+            .tran(0.2s);
+            position: absolute;
+            background: -moz-linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            background: -webkit-linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            background: linear-gradient(90deg, #67C5E2 0.26%, #5AA2FA 101.26%);
+            -ms-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            -webkit-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+            .bor(76px);
+            width: 455px;
+            height: 77px;
+            z-index: 12;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+
+            &:hover {
+               
+            }
+
+            .text05 {
+                padding: 3% 10%;
+                float: right;
+                padding-left: 29%;
+
+                h4 {
+                    text-align: left;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .slogan05 {
+            padding-bottom: 30px;
+
+            h4 {
+                color: @navy;
+                font-size: 16px;
+            }
+        }
+
+        .apps_serv05 {
+
+            .apps_box05 {
+                width: 23%;
+                float: left;
+                padding: 25px 16px 14px;
+                margin: 0 10px;
+                background: rgba(216, 216, 216, 0.1);
+                border-radius: 0px 0px 0px 26.25px;
+
+                .brand_icon03 {
+                    margin: 0 auto;
+                    width: 56px;
+                    margin-bottom: 20px;
+                }
+
+                .brand_title03 {
+                    margin-bottom: 12px;
+
+                    h5 {
+                        font-weight: 700;
+                        color: @black;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .brand_info03 {
+                    h6 {
+                        color: @d_gray;
+                        font-size: 12px;
+                        line-height: 17px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .social_page {

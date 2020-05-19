@@ -1013,7 +1013,7 @@ body {
 }
 .index_page .design04 {
   width: 100%;
-  padding: 400px 0 90px;
+  padding: 400px 0 153px;
   position: relative;
 }
 .index_page .design04 .develeopment04 {
@@ -1076,9 +1076,48 @@ body {
   background: linear-gradient(90deg, #93c934 14.63%, #5dbd37 110.45%);
   box-shadow: 7px 0px 27px rgba(178, 178, 178, 0.5);
   z-index: 12;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
 .index_page .design04 .green_box .text04 {
   padding: 22px 48px;
+}
+.index_page .design04 .blue_box04 {
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  position: absolute;
+  background: -moz-linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  background: -webkit-linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  background: linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  -ms-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  -webkit-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  -webkit-border-radius: 76px;
+  -ms-border-radius: 76px;
+  border-radius: 76px;
+  width: 670px;
+  height: 115px;
+  z-index: 12;
+  bottom: -50px;
+  left: -10%;
+}
+.index_page .design04 .blue_box04:hover {
+  left: -8%;
+}
+.index_page .design04 .blue_box04 .text04 {
+  padding: 3% 10%;
+  float: right;
+  padding-left: 29%;
+}
+.index_page .design04 .blue_box04 .text04 h4 {
+  text-align: left;
+  font-size: 18px;
 }
 .index_page .design04 .left_box {
   width: 40%;
@@ -1088,11 +1127,6 @@ body {
   -webkit-border-radius: 0 68.4px 68.4px 0;
   -ms-border-radius: 0 68.4px 68.4px 0;
   border-radius: 0 68.4px 68.4px 0;
-  -webkit-transition: all linear 0.3s;
-  -moz-transition: all linear 0.3s;
-  -ms-transition: all linear 0.3s;
-  -o-transition: all linear 0.3s;
-  transition: all linear 0.3s;
 }
 .index_page .design04 .left_box:hover {
   left: -5%;
@@ -1114,11 +1148,6 @@ body {
   border-radius: 76px;
   top: 34%;
   right: 10%;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -ms-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
 }
 .index_page .design04 .right_box .text04 h4 {
   font-family: 'Open Sans', sans-serif;
@@ -1137,6 +1166,79 @@ body {
   width: 45px;
   float: left;
   margin: 17px;
+}
+.index_page .apps05 {
+  position: relative;
+  padding: 100px 0 190px;
+  background: #ffffff;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+}
+.index_page .apps05 .blue_box05 {
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  position: absolute;
+  background: -moz-linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  background: -webkit-linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  background: linear-gradient(90deg, #67c5e2 0.26%, #5aa2fa 101.26%);
+  -ms-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  -webkit-box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  box-shadow: 8px 0px 30px rgba(192, 192, 192, 0.5);
+  -webkit-border-radius: 76px;
+  -ms-border-radius: 76px;
+  border-radius: 76px;
+  width: 455px;
+  height: 77px;
+  z-index: 12;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.index_page .apps05 .blue_box05 .text05 {
+  padding: 3% 10%;
+  float: right;
+  padding-left: 29%;
+}
+.index_page .apps05 .blue_box05 .text05 h4 {
+  text-align: left;
+  font-size: 18px;
+}
+.index_page .apps05 .slogan05 {
+  padding-bottom: 30px;
+}
+.index_page .apps05 .slogan05 h4 {
+  color: #071f3a;
+  font-size: 16px;
+}
+.index_page .apps05 .apps_serv05 .apps_box05 {
+  width: 23%;
+  float: left;
+  padding: 25px 16px 14px;
+  margin: 0 10px;
+  background: rgba(216, 216, 216, 0.1);
+  border-radius: 0px 0px 0px 26.25px;
+}
+.index_page .apps05 .apps_serv05 .apps_box05 .brand_icon03 {
+  margin: 0 auto;
+  width: 56px;
+  margin-bottom: 20px;
+}
+.index_page .apps05 .apps_serv05 .apps_box05 .brand_title03 {
+  margin-bottom: 12px;
+}
+.index_page .apps05 .apps_serv05 .apps_box05 .brand_title03 h5 {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+.index_page .apps05 .apps_serv05 .apps_box05 .brand_info03 h6 {
+  color: #6f7b88;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
 }
 .social_page {
   /* Social Page */
